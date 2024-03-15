@@ -1,0 +1,313 @@
+{
+    "medals_awards": "MÉDAILLES ET RÉCOMPENSES",
+    "loading":"Chargement",
+    "email_sent": "Mail envoyé",
+    "email_not_sent": "Mail non envoyé",
+    "menu": {
+        "our_history": "Notre histoire",
+        "our_rums": "Nostre rhums",
+        "cocktails": "Cocktails",
+        "sustainability": "Durabilité",
+        "our_world": "Notre monde",
+        "contact_us": "Contactez-nous"
+    },
+    "rums": {
+        "coffee_liquor": {
+            "description": "Liqueur de café élaborée à base de Ron Centenario 7 Provincias et d'extraits de café du Costa Rica et 100% Arabica de la région caféière de Naranjo, ceux-ci sont fusionnés par un long processus de repos pour obtenir une liqueur de café d'une grande excellence.",
+            "nosing": "Le café, le rhum et quelques notes de moka ressortent.",
+            "flavor": "Des notes prononcées de café, de moka avec de légères notes de vanille et bien sûr la saveur incomparable du Rhum Centenario.",
+            "aging": "N/A"
+        },
+        "anejo_claro": {
+            "description": "Le seul rhum de la famille Centenario doté d'une triple filtration, avec un traitement au charbon actif soigneusement sélectionné afin qu'il n'enlève que la couleur et laisse intactes sa couleur et sa saveur douce. C'est un produit spécialement conçu pour être utilisé dans les cocktails.",
+            "nosing": "Bois et Vanille",
+            "flavor": "Doux en bouche, avec des notes de vanille, une légère douceur et une saveur de chêne caractéristique.",
+            "aging": "Système traditionnel"
+        },
+        "gold": {
+            "description": "Vieilli en fûts de chêne blanc américain qui contenaient avant le rhum du Scotch Whisky, ce qui distingue le Ron Centenario Oro avec des notes boisées et fruitées, ce qui en fait un rhum parfait pour la consommation de boissons mixtes.",
+            "nosing": "Il ressort boisé et est très fruité.",
+            "flavor": "Boisé, aux notes fruitées et fraîches.",
+            "aging": "Système traditionnel"
+        },
+        "5_volcanos": {
+            "description": "Vieilli en fûts de chêne blanc américain qui contenaient avant le rhum du Scotch Whisky, ce qui distingue le Ron Centenario Oro avec des notes boisées et fruitées, ce qui en fait un rhum parfait pour la consommation de boissons mixtes.",
+            "nosing": "Arômes subtils de chêne et de vanille avec une finale de fruits rouges.",
+            "flavor": "Produit moyennement corsé, avec une entrée en bouche douce qui permet de détecter les arômes de fruits rouges, de vanille et de bois.",
+            "aging": "Système traditionnel"
+        },
+        "7_provinces": {
+            "description": "Représentant la culture et les traditions des 7 provinces du Costa Rica, Ron Centenario 7 Provincias Añejo Especial est le rhum avec lequel a commencé l'histoire de la marque Centenario. Son équilibre parfait entre saveur fruitée et boisé fait de Ron Centenario 7 Provincias un hommage au meilleur rhum du Costa Rica.",
+            "nosing": "Arômes agréables de miel, de pomme rouge et notes boisées.",
+            "flavor": "Saveurs légèrement sucrées, boisées, fruitées et longue finale.",
+            "aging": "Système traditionnel"
+        },
+        "9_degrees": {
+            "description": "9 degrés de latitude nord se trouve la seule cave vieillissante du Costa Rica, patrie de Ron Centenario, cet endroit est entouré d'un corridor biologique interurbain avec une grande biodiversité, où coexistent des espèces de flore et de faune, avec un climat idéal pour vieillir. .le meilleur rhum du Costa Rica, obtenant des rhums aux notes d'agrumes et de caramel.",
+            "nosing": "Il met en valeur le bois, les épices, les notes d'agrumes et le caramel. La vanille est également perçue.",
+            "flavor": "Des notes de caramel qui s'entremêlent parfaitement aux notes d'agrumes, d'épices et de bois, le rendant doux et très agréable.",
+            "aging": "Système traditionnel"
+        },
+        "12_secrets": {
+            "description": "Vieilli dans des fûts de chêne blanc américain ayant initialement contenu du whisky écossais, il représente le meilleur de notre système de vieillissement traditionnel. Ron Centenario 12 Secretos a une douceur équilibrée, où se détachent la vanille et une permanence unique en bouche. Avec des notes fortes de fruits rouges et un corps équilibré, qui active tous nos sens pour un voyage parfait. Un Rhum à déguster seul ou sur glace.",
+            "nosing": "Arôme agréable de fruits rouges mûrs et de bois.",
+            "flavor": "Légèrement sucré avec des notes prédominantes de vanille, de fruits rouges mûrs, présence agréable du bois et corps équilibré, avec une longue persistance en bouche.",
+            "aging": "Système traditionnel"
+        },
+        "20_years": {
+            "description": "Ce rhum a été élaboré en 2005 pour célébrer le vingtième anniversaire de la marque Ron Centenario. Élaboré selon le système de vieillissement continu en fûts de chêne blanc américain contenant du whisky écossais, avec des rhums âgés de 6 à 20 ans, ce qui en fait le rhum le plus primé de la famille Centenario. Sa douceur et son élégance font ressortir les notes de chêne, de fruits rouges, d'agrumes d'orange et de vanille subtile.",
+            "nosing": "Avec une caractéristique unique pour les produits de la ligne Ron Centenario Premium : l'effet rétro-nasal, ce qui signifie que rien qu'en le sentant on le goûte, on commence ce merveilleux voyage sensoriel. Très fruité, subtile vanille et bois.",
+            "flavor": "Doux, délicat, une subtile note vanillée, boisée et citronnée.",
+            "aging": "Système de vieillissement continu"
+        },
+        "25_years": {
+            "description": "Il est créé avec notre Gran Reserva de rhums sélectionnés de 6 à 25 ans, sous le processus de vieillissement continu en fûts de chêne blanc américain ayant contenu du Scotch Whisky. Il met en valeur le boisé, des fruits verts et des notes épicées sont perçues. Avec une longue tenue en bouche et une caractéristique unique de ce produit qui est sec en bouche.",
+            "nosing": "Avec une caractéristique unique pour les produits de la ligne Ron Centenario Premium : l'effet rétro-nasal, ce qui signifie que rien qu'en le sentant on le goûte, on commence ce merveilleux voyage sensoriel. Les espèces, les fruits verts comme les pommes et le bois se démarquent.",
+            "flavor": "Le bois ressort, légèrement sucré, avec une parfaite harmonie entre fruits verts et notes épicées. Avec une caractéristique qui le distingue : il est sec en bouche.",
+            "aging": "Système de vieillissement continu"
+        },
+        "30_years": {
+            "description": "Développé en 2011 pour commémorer le 30e anniversaire des rhums en édition limitée qui ont donné naissance à ce merveilleux projet, vieillis selon un processus de vieillissement continu dans des fûts de chêne blanc américain contenant du Scotch Whisky. Avec des rhums de 8 à 30 ans, au vieillissement lent et naturel perfectionné par la nature, Ron Centenario 30 Anniversary est un rhum gras, crémeux et très soyeux. Avec un grand bouquet et une longue tenue en bouche. Met en valeur les fruits rouges mûrs, le chêne et le chocolat noir.",
+            "nosing": "Avec une caractéristique unique pour les produits de la ligne Ron Centenario Premium : l'effet rétro-nasal, ce qui signifie que rien qu'en le sentant on le goûte, on commence ce merveilleux voyage sensoriel. Des reflets boisés, de fruits rouges mûrs et de chocolat noir.",
+            "flavor": "Crémeux et très soyeux, avec un grand bouquet, longue persistance en bouche, fruité et avec des notes de chocolat.",
+            "aging": "Système de vieillissement continu"
+        },
+        "1985": {
+            "description": "Ron Centenario 1985 Lowlands, est une édition spéciale réalisée au Costa Rica. Il s'agit d'un assemblage de rhums légers et lourds vieillis dans des fûts de chêne blanc américain ayant autrefois contenu du whisky écossais. Une sélection spéciale de fûts des Lowlands, conservés dans une forêt du Costa Rica, pour créer ce mélange unique de chêne doux, de café et de fruits secs.",
+            "nosing": "Notes délicates de café torréfié, de vanille, de bois et de fruits secs.",
+            "flavor": "Grande onctuosité dans laquelle se détachent des notes de café torréfié et de fruits secs, avec une finale de vanille et de chêne.",
+            "aging": "Système traditionnel"
+        }
+    },
+    "our_history": {
+        "origin_barrels": "L'origine de nos fûts",
+        "speyside": "Fruité, Floral et Enrichi",
+        "highlands": "Fruité, noisette et épicé",
+        "lowlands": "Frais, herbacé et malté",
+        "islay": "Tourbé, fumé et marin",
+        "timeline": {
+            "1979": "Des fûts de chêne contenant des malts écossais arrivent dans notre pays.",
+            "1981": "En septembre 1981, le premier fût est rempli de Ron Centenario.",
+            "1985": "Notre premier rhum est né.",
+            "1994": "Près d'une décennie après la naissance du premier rhum du Costa Rica, nous sommes fiers de créer Centenario Commemorativo.",
+            "2004": "A l’horizon du rhum, il nous restait encore beaucoup à conquérir. C'est pourquoi nous avons créé Centenario Blanco, Centenario Añejo Especial 7 et Commemorativo 9.",
+            "2007": "Nos premières exportations sont 2 des produits les plus emblématiques de notre famille : Ron Centenario Fundación 20 et Ron Centenario Añejo Especial 7. Tous deux ont apporté le goût du Costa Rica aux États-Unis et en Allemagne.",
+            "2011": "Naissance de nos plus grands produits : Ron Centenario 30 Limited Edition et le joyau de nos rhums : Centenario Real en 2015. Nous remportons les prix du meilleur rhum du monde et du meilleur distillat du monde.",
+            "2017": "Nous voulions montrer au monde comment le meilleur rhum est fabriqué de la meilleure façon. C'est pourquoi nous avons décidé de renouveler notre image : nous avons changé les bouteilles, le logo et les étiquettes.\nNos campagnes de développement durable et de croissance sociale nous ont positionnés comme l'une des marques leaders en matière de projets environnementaux et sociaux.\nNotre sceau et notre raison d'être sont nés : Vieilli par la nature, montrant au monde comment les notes de dégustation de nos rhums prennent vie avec l'aide de la nature."
+        }
+    },
+    "our_rums": {
+        "extracted_from_base": "Seulement 25% de la base est extraite",
+        "aroma": "Parfum",
+        "flavor": "Saveur",
+        "aging": "Vieillissement",
+        "special_edition": "Éditions spéciales",
+        "liquors": "Liqueurs",
+        "introduction": "Ron Centenario est conçu à partir de l'âme même de la Terre Mère. Il est élaboré avec de l'eau de montagne pure et cristalline et est assemblé au milieu de la forêt tropicale du Costa Rica, dans des fûts de chêne blanc américain qui contenaient autrefois du Scotch Whisky. Conservé et vieilli dans un lieu stratégique, entouré de rivières, de nature pour offrir le parfait équilibre entre fraîcheur et humidité. Créé en harmonie avec notre biodiversité, il est protégé par la faune locale et perfectionné dans une cave à rhum unique. Pour toutes ces raisons, nous pouvons affirmer avec fierté que nous sommes le seul rhum du Costa Rica « Vieilli par Nature »."
+    },
+    "cocktails": {
+        "introduction": "Des cocktails les plus élaborés aux mélanges que nous préparons à la maison à déguster entre amis et proches, Ron Centenario est votre entreprise idéale pour profiter du monde des cocktails.\nVoyagez avec nous dans l'univers des cocktails Tiki, des grands classiques réinventés selon notre style et des cocktails Aged by Nature.",
+        "find_cocktail_style": "Trouvez votre style de cocktail",
+        "by_product": "Par produit",
+        "by_flavor": "Par profil de saveur",
+        "signature_cocktails": "Des cocktails exclusifs",
+        "how_to_make_it": "Comment le faire?",
+        "aged_by_nature": "Vieilli par nature",
+        "tiki_cocktails": "Des cocktails tiki",
+        "syrups": {
+            "honeybee_and_lemongrass": {
+                "title": "Préparation du sirop d'abeille et de citronnelle:",
+                "text": "Dans une casserole à basse température, préparer une infusion de citronnelle dans l'eau jusqu'à ce qu'il soit palpable que l'eau ait absorbé une grande partie de la saveur et de l'arôme de la citronnelle. Si vous disposez d’un «Sous Vide», vous pouvez faire l’infusion à une température de 60 degrés Celsius pendant une durée de 2 heures.\nUne fois l'infusion prête, vous devez mélanger, en utilisant la température tiède de l'eau infusée, 300 ml de miel avec 150 ml d'eau infusée, jusqu'à créer un mélange uniforme."
+            },
+            "rosemary": {
+                "title": "Préparation du Sirop de Romarin:",
+                "text": "Dans une casserole à basse température, préparer une infusion de Romarin dans l'eau jusqu'à ce qu'il soit palpable que l'eau ait absorbé une grande partie de la saveur et de l'arôme du Romarin. Si vous disposez d’un «Sous Vide», vous pouvez faire l’infusion à une température de 70 degrés Celsius pendant une durée de 2 heures.\nUne fois l'infusion prête, vous devez mélanger, en utilisant la température chaude de l'eau infusée, 300 grammes de sucre raffiné avec 300 ml d'eau infusée, jusqu'à créer un mélange uniforme."
+            }
+        },
+        "sweet": "Douce",
+        "refreshing": "Rafraîchissant",
+        "fruity": "Fruité",
+        "spirit_forward": "Robuste",
+        "citrus": "Citrique",
+        "method": "Méthode",
+        "garnish": "Garniture",
+        "ice": "Glace",
+        "ingredients": "Ingrédients",
+        "glass": "Verre",
+        "levelDifficulty": "Niveau de difficulté",
+        "shake_strain": "Shake and strain",
+        "chill_glass": "Chill Cocktail Glass",
+        "none": "None",
+        "3_coffee_beans": "3 Coffee Beans",
+        "medium": "Medium",
+        "low": "Low",
+        "simple_syrup": "Simple Syrup",
+        "almond_milk": "Almond Milk",
+        "build_stir": "Build and stir",
+        "highball": "Highball",
+        "cubed": "Cubed",
+        "orange_peel": "Orange Peel",
+        "dashes_orange_bitters": "Dashes of Orange Bitters",
+        "fill_tonic_water": "Fill with Tonic Water",
+        "muddle_shake_strain": "Muddle, Shake and Strain",
+        "double_rocks": "Double Rocks",
+        "crushed": "Crushed",
+        "pineapple_slice": "Pineapple Slice",
+        "slices_of_lime": "Slices of Lime",
+        "pineapple_chunks": "Pineapple Chunks",
+        "bar_spoon_sugar": "Bar Spoon of Sugar",
+        "build": "Build",
+        "lime_juice": "Lime Juice",
+        "fill_coke": "Fill with Coke",
+        "muddle_build_stir": "Muddle, Build and Stir",
+        "ballon": "Ballon",
+        "blackberries": "Blackberries",
+        "strawberries": "Strawberries",
+        "raspberries": "Raspberries",
+        "tonic_water": "Tonic Water",
+        "rocks": "Rocks",
+        "apple_fan": "Apple Fan",
+        "bar_spoon_falernum": "Bar Spoon of Falernum",
+        "cube_demerara_sugar": "Cube of Demerara Sugar",
+        "fill_apple_juice": "Fill with Apple Juice",
+        "shake_fine_strain": "Shake and Fine Strain",
+        "chill_coupe": "Chill Coupe",
+        "lime_peel": "Lime Peel",
+        "honey_syrup_lemongrass": "Honey Syrup with Lemongrass (Homemade) (2:1)",
+        "direct": "Direct",
+        "kiwi_slice": "Kiwi Slice",
+        "thin_slices_kiwi": "Thin slices of Kiwi",
+        "fill_sparkling_water": "Fill with Sparkling Water",
+        "build_smoked": "Build and Smoked (top smoker)",
+        "big_rock": "Big Rock",
+        "rich_demerara_syrup": "Rich Demerara Syrup (2:1)",
+        "dash_of_angostura_bitters": "Dash of Angostura Bitters",
+        "smoked_cinnamon": "Smoked with Cinnamon",
+        "gently_stir": "Gently Stir",
+        "sweet_vermouth": "Sweet Vermouth",
+        "amontillado_sherry": "Amontillado Sherry",
+        "dash_cocoa_bitters": "Dash of Cocoa Bitters",
+        "shaker_and_strain_build_stair": "Shaker and Strain, Build and Stair",
+        "rosemary_spring": "Rosemary Spring",
+        "rosemary_syrup": "Rosemary Syrup",
+        "fill_ginger_beer": "Fill with Ginger Beer",
+        "skewed_red_fruits": "Skewed Red Fruits",
+        "splash_tonic_water": "Splash of premium Tonic Water",
+        "build_and_stir": "Build and Stir",
+        "rocks_glass": "Rocks Glass",
+        "blackberries_puree": "Blackberries Puree",
+        "passion_fruit_puree": "Passion Fruit Puree",
+        "spring_basil": "Spring of Basil",
+        "orange_juice": "Orange Juice",
+        "swizzle_stick": "Swizzle Stick",
+        "tiki_glass_highball_glass": "Tiki Glass or Highball Glass",
+        "mint_spring": "Mint Spring",
+        "centenario_homemade_allspice_dram": "Centenario Homemade Allspice Dram",
+        "passion_fruit_syrup": "Passion Fruit Syrup",
+        "demerara_syrup": "Demerara Syrup",
+        "flamed_lime_shell_cinnamon": "Flamed Lime Shell and Cinnamon",
+        "granadine":"Granadine",
+        "centenario_homemade_falernum": "Centenario Homemade Falernum",
+        "soda": "Soda",
+        "swizzle": "Swizzle",
+        "large_brandi_snifer": "Large Brandi Snifer",
+        "pineapple_pure": "Pineapple Pure",
+        "agave_syrup": "Agave Syrup",
+        "skewed_blackberries": "Skewed Blackberries",
+        "passion_fruit_sedes_top": "Passion Fruit Seeds on top"
+    },
+    "contact_us": {
+        "title": "Avez-vous des questions?",
+        "form_text": "Si vous avez des questions, des suggestions ou si vous souhaitez devenir distributeur de Ron Centenario dans votre pays, écrivez-nous et nous répondrons avec plaisir à votre demande.",
+        "full_name": "Nom complet",
+        "email": "Courrier électronique",
+        "message": "Votre question ou commentaire",
+        "send": "Envoyer",
+        "clean": "Supprimer",
+        "phone_number": "Centrale téléphonique"
+    },
+    "our_world": {
+      "world_medals": "Monde des médailles",
+      "more_medals": "Il y a encore plus de médailles",
+      "events": "Événements",
+      "news": "Informations",
+      "read_more": "En savoir plus",
+      "read_less": "Lire Moins",
+      "where_to_find_us": "OÙ NOUS TROUVER",
+      "medals": {
+        "AWARD_ISW_GERMANY_2024": "Peu de choses sont aussi diverses et variées que le monde des esprits. Ce qui anime l’industrie, c’est une créativité débridée, la recherche de l’extraordinaire et la recherche de la plus haute qualité.Par conséquent, une attention croissante est accordée aux spiritueux de haute qualité, de nouvelles distilleries sont fondées, celles existantes sont mises à jour pour l'avenir et la gamme de produits s'élargit et devient plus colorée. Les distillateurs visionnaires du monde entier recherchent de nouvelles idées pour améliorer davantage leurs spiritueux, laissant derrière eux les anciennes voies ou y revenant délibérément. Les spiritueux atteignent ainsi de plus en plus de nouveaux groupes cibles qui souhaitent découvrir par eux-mêmes cette variété infinie. L'atelier et la culture de la dégustation en plein essor sont les meilleurs indicateurs de cette nouvelle réflexion qualité de la part des consommateurs.",
+        "FIFTY_BEST_NEW_YORK_2018": "The Fifty Best a réalisé une dégustation « à l'aveugle » de 11 rhums vieux avec quatorze membres de notre jury de spiritueux. L'ordre de service était auparavant établi par tirage au sort. Des règles de dégustation strictes ont été appliquées. Chacun des rhums a été versé dans des verres neufs issus de bouteilles neuves scellées et servi à une température légèrement supérieure à la température ambiante. Les juges ont enregistré leurs impressions sur chaque produit sur des feuilles de notation. Les doubles médailles d'or, d'or et d'argent sont décernées selon une gamme définie de notes finales reçues des juges.",
+        "DOUBLE_GOLD_MEDAL_FLORIDA_2018": "Le concours de dégustation de vins et spiritueux est l’un des points forts d’Access LIVE et offre une opportunité extraordinaire d’exposition supplémentaire pour votre marque. Ce concours de dégustation à l'aveugle récompense l'excellence gustative et offre aux marques établies et émergentes l'opportunité d'acquérir une reconnaissance qui améliorera leur visibilité tout au long du salon et établira une crédibilité durable pour leurs produits.",
+        "RUM_RENAISSANCE_MIAMI_2018": "Le concours annuel de dégustation RumXP du Rum Renaissance Festival est l'un des événements les plus prestigieux du genre au monde, réunissant une multitude de juges de rhum expérimentés du monde entier pour évaluer les meilleurs spiritueux de canne de chaque région, chacun style et chaque catégorie de rhum.",
+        "ESPAÑA_DOBLE_GOLD_MEDAL_2015": "Ce congrès international du rhum est le plus grand événement pour les spécialistes du rhum au monde. Cette année, il aura lieu en septembre, au sein du prestigieux hôtel Biltmore en Floride. Dans cette nouvelle édition, la Conférence Internationale du Rhum se déplace aux États-Unis dans le seul but de se rapprocher des territoires où est fabriqué ce spiritueux.",
+        "TOKYO_SUPERIOR_GOLD_WINNER_2023": "Est le seul concours au Japon qui juge le whisky et les spiritueux du monde entier au goût délicat du Japon. Lors du premier concours organisé en 2019, environ 500 bouteilles de whisky et de spiritueux du Japon et du monde entier ont été jugées par environ 200 juges familiers avec le whisky et les spiritueux du Japon. Grâce aux connaissances approfondies et à la passion des amateurs et experts japonais du whisky et des spiritueux, nous visons à évaluer le whisky et les spiritueux du monde entier et à promouvoir largement le whisky et les spiritueux de haute qualité au Japon et à l'étranger. ",
+        "ALEMANIA_SPIRIT_OF_THE_YEAR_2011": "Peu de choses sont aussi diverses et variées que le monde des esprits. Ce qui anime l’industrie, c’est une créativité débridée, la recherche de l’extraordinaire et la recherche de la plus haute qualité. Par conséquent, une attention croissante est accordée aux spiritueux de haute qualité, de nouvelles distilleries sont fondées, celles existantes sont mises à jour pour l'avenir et la gamme de produits s'élargit et devient plus colorée. Les distillateurs visionnaires du monde entier recherchent de nouvelles idées pour améliorer davantage leurs spiritueux, laissant derrière eux les anciennes voies ou y revenant délibérément. Les spiritueux atteignent ainsi de plus en plus de nouveaux groupes cibles qui souhaitent découvrir par eux-mêmes cette variété infinie. L'atelier et la culture de la dégustation en plein essor sont les meilleurs indicateurs de cette nouvelle réflexion qualité de la part des consommateurs.",
+        "ESPAÑA_DOBLE_GOLD_MEDAL_2016": "Ce congrès international du rhum est le plus grand événement pour les spécialistes du rhum au monde. Cette année, il aura lieu en septembre, au sein du prestigieux hôtel Biltmore en Floride. Dans cette nouvelle édition, la Conférence Internationale du Rhum se déplace aux États-Unis dans le seul but de se rapprocher des territoires où est fabriqué ce spiritueux.",
+        "TOKIO_GOLD_WINNER_2022": "Est le seul concours au Japon qui juge le whisky et les spiritueux du monde entier au goût délicat du Japon. Lors du premier concours organisé en 2019, environ 500 bouteilles de whisky et de spiritueux du Japon et du monde entier ont été jugées par environ 200 juges familiers avec le whisky et les spiritueux du Japon. Grâce aux connaissances approfondies et à la passion des amateurs et experts japonais du whisky et des spiritueux, nous visons à évaluer le whisky et les spiritueux du monde entier et à promouvoir largement le whisky et les spiritueux de haute qualité au Japon et à l'étranger.",
+        "ESPAÑA_SILVER_MEDAL_2014": "Ce congrès international du rhum est le plus grand événement pour les spécialistes du rhum au monde. Cette année, il aura lieu en septembre, au sein du prestigieux hôtel Biltmore en Floride. Dans cette nouvelle édition, la Conférence Internationale du Rhum se déplace aux États-Unis dans le seul but de se rapprocher des territoires où est fabriqué ce spiritueux.",
+        "TOKYO_SILVER_WINNER_2023": "Est le seul concours au Japon qui juge le whisky et les spiritueux du monde entier au goût délicat du Japon. Lors du premier concours organisé en 2019, environ 500 bouteilles de whisky et de spiritueux du Japon et du monde entier ont été jugées par environ 200 juges familiers avec le whisky et les spiritueux du Japon. Grâce aux connaissances approfondies et à la passion des amateurs et experts japonais du whisky et des spiritueux, nous visons à évaluer le whisky et les spiritueux du monde entier et à promouvoir largement le whisky et les spiritueux de haute qualité au Japon et à l'étranger.",
+        "SPAIN_GOLD_MEDAL_2016": "Ce congrès international du rhum est le plus grand événement pour les spécialistes du rhum au monde. Cette année, il aura lieu en septembre, au sein du prestigieux hôtel Biltmore en Floride. Dans cette nouvelle édition, la Conférence Internationale du Rhum se déplace aux États-Unis dans le seul but de se rapprocher des territoires où est fabriqué ce spiritueux.",
+        "SILVER_SPIRITS_2017": "Le concours de dégustation de vins et spiritueux est l’un des points forts d’Access LIVE et offre une opportunité extraordinaire de donner une visibilité supplémentaire à votre marque. Ce concours de dégustation à l'aveugle récompense l'excellence gustative et offre aux marques établies et émergentes l'opportunité d'acquérir une reconnaissance qui améliorera leur visibilité tout au long du salon et établira une crédibilité durable pour leurs produits.",
+        "ALEMANIA_SILVER_MEDAL_2012": "Peu de choses sont aussi diverses et variées que le monde des esprits. Ce qui anime l’industrie, c’est une créativité débridée, la recherche de l’extraordinaire et la recherche de la plus haute qualité. Par conséquent, une attention croissante est accordée aux spiritueux de haute qualité, de nouvelles distilleries sont fondées, celles existantes sont mises à jour pour l'avenir et la gamme de produits s'élargit et devient plus colorée. Les distillateurs visionnaires du monde entier recherchent de nouvelles idées pour améliorer davantage leurs spiritueux, laissant derrière eux les anciennes voies ou y revenant délibérément. Les spiritueux atteignent ainsi de plus en plus de nouveaux groupes cibles qui souhaitent découvrir par eux-mêmes cette variété infinie. L'atelier et la culture de la dégustation en plein essor sont les meilleurs indicateurs de cette nouvelle réflexion qualité de la part des consommateurs.",
+        "ALEMANIA_SILVER_MEDAL_2007": "Peu de choses sont aussi diverses et variées que le monde des esprits. Ce qui anime l’industrie, c’est une créativité débridée, la recherche de l’extraordinaire et la recherche de la plus haute qualité. Par conséquent, une attention croissante est accordée aux spiritueux de haute qualité, de nouvelles distilleries sont fondées, celles existantes sont mises à jour pour l'avenir et la gamme de produits s'élargit et devient plus colorée. Les distillateurs visionnaires du monde entier recherchent de nouvelles idées pour améliorer davantage leurs spiritueux, laissant derrière eux les anciennes voies ou y revenant délibérément. Les spiritueux atteignent ainsi de plus en plus de nouveaux groupes cibles qui souhaitent découvrir par eux-mêmes cette variété infinie. L'atelier et la culture de la dégustation en plein essor sont les meilleurs indicateurs de cette nouvelle réflexion qualité de la part des consommateurs.",
+        "WORLD_SPIRITS_SILVER_2019": "Fondé en 2000, le San Francisco World Spirits Competition est le plus grand et le plus ancien concours de ce type. Les concours de Tasting Alliance sont considérés comme les plus influents pour une bonne raison. Gagner une médaille de l'organisation aide non seulement les marques à entrer et à se démarquer sur les marchés américains et internationaux, mais c'est également la prochaine étape cruciale pour tout producteur afin d'être reconnu dans l'industrie et auprès des consommateurs. ",
+        "ESPAÑA_SILVER_MEDAL_2012": "Ce congrès international du rhum est le plus grand événement pour les spécialistes du rhum au monde. Cette année, il aura lieu en septembre, au sein du prestigieux hôtel Biltmore en Floride. Dans cette nouvelle édition, la Conférence Internationale du Rhum se déplace aux États-Unis dans le seul but de se rapprocher des territoires où est fabriqué ce spiritueux.",
+        "MADRID_RUM_CONFERENCE_SILVER_2018": "Ce congrès international du rhum est le plus grand événement pour les spécialistes du rhum au monde. Cette année, il aura lieu en septembre, au sein du prestigieux hôtel Biltmore en Floride. Dans cette nouvelle édition, la Conférence Internationale du Rhum se déplace aux États-Unis dans le seul but de se rapprocher des territoires où est fabriqué ce spiritueux."
+      },
+      "events_data": {
+        "paris_rum_fest": {
+          "title": "Ron Centenario au Paris Rhum Fest",
+          "text": "Les amateurs de rhum auront une nouvelle fois l'occasion de ravir leurs palais avec Ron Centenario lors de la dixième édition du Paris Rhum Fest, qui se tiendra du 4 au 6 mai au Parc Floral de Paris. \nL'événement de trois jours offre aux amateurs et aux professionnels l'occasion de goûter et d'expérimenter les diverses sensations du rhum naturellement vieilli. \nLes participants auront l'occasion de poser toutes leurs questions à l'ambassadeur mondial de la marque Miguel Sequeira, qui sera présent au salon pendant les trois jours et proposera le portefeuille de Rhum Centenario disponible en France à la dégustation par tous les participants, qui comprend les éléments suivants expressions: \nRon Centenario 7 Provincias, Ron Centenario 9 Grados, Ron Centenario 12 Secretos, Ron Centenario 20 Fundación, Ron Centenario 25 Anniversary et Ron Centenario 30 Anniversary."
+        },
+        "pro_wein": {
+          "title": "Ron Centenario présent au salon professionnel Pro Wein 2024",
+          "text": "Les 10, 11 et 12 mars 2024, Ron Centenario participera au prestigieux salon professionnel Pro Wein. \nPro Wein a lieu dans la ville allemande de Düsseldorf et compte plus de 5 000 exposants de produits et services, ainsi que 50 000 participants intéressés par l'industrie des boissons, notamment les vins, spiritueux, liqueurs, bières, mélangeurs et services liés aux boissons et industrie hôtelière. \nRon Centenario participe avec l'aide et la collaboration de Sierra Madre, son distributeur pour le marché allemand et plusieurs marchés européens. Sierra Madre contribue à promouvoir la présence de Ron Centenario dans cette foire et dans d'autres de grande importance au niveau allemand et européen. "
+        },
+        "foodex": {
+          "title": "Ron Centenario présent au FOODEX Japan 2024",
+          "text": "Ron Centenario, avec le soutien du promoteur costaricain des exportations PROCOMER, aura la belle opportunité de participer à la prochaine édition du festival FOODEX qui se tiendra à Tokyo, au Japon, les 5, 6, 7 et 8 mars 2024. \nFOODEX est le plus grand salon des aliments et des boissons en Asie et, ces dernières années, PROCOMER a encouragé la participation des exportateurs du Costa Rica pour promouvoir leurs différents produits à ce salon. \nPour l'édition 2024, Ron Centenario disposera d'un stand au sein de l'espace réservé à la délégation costaricaine, dans lequel sera exposé le portefeuille actuel de Ron Centenario disponible pour le marché japonais et composé des produits suivants : \nRon Centenario 9 Grados, Ron Centenario 12 Secretos, Ron Centenario 20 Fundación, Ron Centenario 30 Anniversary et la Centenario Café Liqueur. En plus de ce portfolio, l'occasion sera saisie pour lancer et exposer le nouvel ajout de Ron Centenario 25 Anniversary au portefeuille japonais. \nLa délégation sera composée de Miguel Sequeira, ambassadeur mondial de la marque Ron Centenario, et de représentants du bureau PROCOMER au Japon, qui apporteront leur aide pour les questions d'exposition et de traduction. \nRon Centenario est distribué au Japon par la société Toko Trading Co et est distribué dans la célèbre chaîne d'alcool Liquor Mountain."
+        }
+      },
+      "news_data": {
+        "inGermany": {
+          "title": "Double médaille d'or pour Ron Centenario en Allemagne ",
+          "text": "Le prestigieux concours international de spiritueux et spiritueux « Meininger's International Spirits Awards » a décerné deux prix à Ron Centenario en juillet 2023, en attribuant à Ron Centenario 20 Fundación et Ron Centenario 12 Secretos une médaille d'or pour chacun, réaffirmant une fois de plus la grande qualité que Ron Centenario exporte du Costa Rica vers le monde entier. \nAvec l'un des jurys les plus exigeants au monde, ces médailles décernées par l'IWS placent Centenario comme l'un des rhums les plus prestigieux au monde et donnent toute confiance aux consommateurs et amateurs de rhum du monde entier pour les laisser consommer ce délicieux trésor du Costa Rica. ",
+          "date": "San José, 14/02/2024 "
+        },
+        "inItaly": {
+          "title": "Le marché italien tombe amoureux de Ron Centenario ",
+          "text": "Le 26 janvier 2024, une délégation de Ron Centenario a participé à la réunion commerciale annuelle du distributeur de Liqueurs et Spiritueux Rinaldi 1957 qui s'est tenue à Bologne, en Italie. \nLa délégation composée de Dianne Medrano PDG, Jeannette Coto International Marketing Manager, Ericka Pereira International Business Executive, Miguel Sequeira Global Brand Ambassador et Santiago Rocha Business Advisor, a expliqué à tous les participants toute la magie derrière Ron Centenario. \nPlus de 150 membres de la force de vente de Rinaldi 1957 ont participé à la séance, au cours de laquelle chacun a reçu en cadeau de la marque un coffret de dégustation comprenant un échantillon de 50 ml des présentations de Ron Centenario 9 Grados, 12 Secretos, 20th Foundation, 25e anniversaire et 30e anniversaire. \nCette réunion de vendeurs a été l'occasion idéale pour présenter Ron Centenario à la force commerciale qui sera chargée de placer Ron Centenario et de le positionner sur le marché italien. ",
+          "date": "San José, 14/02/2024 "
+        },
+        "inJapon": {
+          "title": "Ron Centenario brille et conquiert le marché japonais ",
+          "text": "Au cours du mois de mai 2023, le prestigieux concours de spiritueux « Tokyo Whisky & Spirits Competition (TWSC) » a décerné à Ron Centenario le prix « Superior Gold » dans la catégorie système Solera pour le produit Ron Centenario 30 Anniversary. \nCette reconnaissance récompense la grande qualité de Ron Centenario et l'excellent travail de sa Maîtresse Rhumeuse Susana Masis, chargée de formuler et de produire le seul Rhum « Aged by Nature ». \nLe TWSC est le seul concours au Japon qui juge le whisky et les spiritueux du monde entier au goût délicat du Japon. Lors du premier concours organisé en 2019, environ 500 bouteilles de whisky et de spiritueux du Japon et du monde entier ont été jugées par environ 200 juges familiers avec le whisky et les spiritueux du Japon. Grâce aux connaissances approfondies et à la passion des amateurs et experts japonais du whisky et des spiritueux, nous visons à évaluer le whisky et les spiritueux du monde entier et à promouvoir largement le whisky et les spiritueux de haute qualité au Japon et à l'étranger.",
+          "date": "San José, 14/02/2024 "
+        }
+      }
+    },
+    "continuos_aging_system": {
+        "title": "Système de Vieillissement Continu",
+        "paragraph1": "Ce système est réservé à notre sélection premium de rhums et s’inspire du célèbre système de vieillissement « Solera ».",
+        "paragraph2": "Son fonctionnement prévoit que les fûts seront disposés à différents niveaux de hauteur. Le premier niveau, qui est le plus bas, s'appelle « Solera ». Ce mot signifie sol et fait référence au niveau des fûts le plus proche du sol. A ce niveau sont placés les Rhums ayant le vieillissement le plus long.",
+        "paragraph3": "Les niveaux placés au-dessus de la Solera sont appelés « Criaderas » et les rhums les plus jeunes y sont placés à mesure que le niveau est élevé. Le niveau le plus élevé, appelé Criadera 1, contient les rhums les plus jeunes de tout le système, et à partir de ce niveau sont effectuées des extractions qui remplissent les niveaux inférieurs en cascade, chaque niveau contenant des rhums plus anciens, jusqu'à ce que ladite cascade de remplissage atteigne La Solera.",
+        "paragraph4": "Une fois le processus terminé, notre Master Blender extraira seulement 25 % du liquide contenu dans la Solera et avec ce produit procédera à la mise en bouteille du produit final.",
+        "paragraph5": "Les présentations de Ron Centenario produites dans le cadre de ce système de vieillissement sont:"
+    },
+    "traditional_aging_system": {
+        "title": "Système de vieillissement traditionnel",
+        "paragraph1": "Avant d'introduire nos rhums lourds et légers dans les fûts de chêne blanc américain, qui ont préalablement vieilli le Scotch Whisky, la teneur en alcool est réduite à environ 60% AVB, dans le but de réduire l'effet de la « Part des Anges », également connue sous le nom de « Portion ». des Anges ».",
+        "paragraph2": "Par la suite, les rhums lourds et légers sont placés séparément dans les fûts et ils y reposeront pendant le temps nécessaire à leur maturation, en fonction de l'âge requis par notre maître rhumier.",
+        "paragraph3": "Une fois ce processus terminé, les rhums sont extraits des fûts et mélangés pour donner vie et saveur à chacune de nos présentations. Lorsque le « Blending » est prêt, en utilisant de l'eau déminéralisée par osmose inverse, le produit est mis en bouteille à la teneur en alcool indiquée par la réglementation du marché de destination.",
+        "paragraph4": "Les présentations de Ron Centenario vieillies selon ce système sont:",
+        "alcohol": "Alcool à 96%",
+        "light_rum": "Rhum Léger 55%",
+        "raw_rum": "Rhum brut",
+        "heavy_rum": "Rhum lourd 55%",
+        "demineralized_water": "Eau déminéralisée par osmose inverse",
+        "blending": "Mixte",
+        "bottling": "Embouteillage",
+        "age_white_oak": "Vieilli en fûts de chêne blanc américain préalablement brûlés intérieurement",
+        "first_use": "Utilisation antérieure des fûts : Scotch Whisky"
+    }
+}

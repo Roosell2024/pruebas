@@ -1,0 +1,313 @@
+{
+    "medals_awards": "MEDALLAS Y PREMIOS",
+    "loading":"Cargando",
+    "email_sent": "Correo enviado",
+    "email_not_sent": "Correo no enviado",
+    "menu": {
+        "our_history": "Nuestra historia",
+        "our_rums": "Nuestros rones",
+        "cocktails": "Cócteles",
+        "sustainability": "Sostenibilidad",
+        "our_world": "Nuestro mundo",
+        "contact_us": "Contáctenos"
+    },
+    "rums": {
+        "coffee_liquor": {
+            "description": "Licor de café elaborado con base de Ron Centenario 7 Provincias y extractos de café, costarricense y  100% Arábigo de la región cafetalera de Naranjo, estos se fusionan mediante un largo proceso de reposo para obtener un licor de café de gran excelencia.",
+            "nosing": "Destaca el café, el ron y algunas notas a moka.",
+            "flavor": "Pronunciadas notas de café, moka con ligeras notas de vainilla y por supuesto el sabor inconfundible de ron Centenario.",
+            "aging": "N/A"
+        },
+        "anejo_claro": {
+            "description": "Único Ron de la familia Centenario que tiene triple filtración, con un tratamiento  carbón activo cuidadosamente seleccionado para que solo elimine color y deje íntegro su color y suave sabor. Es un producto diseñado  especialmente para su uso en coctelería.",
+            "nosing": "Destaca madera y vainilla",
+            "flavor": "Suave al paladar, con notas a  vainilla, ligero dulzor y con característico sabor a roble.",
+            "aging": "Sistema Tradicional"
+        },
+        "gold": {
+            "description": "Añejado en barriles de roble blanco americano que antes del ron contuvieron Whisky Escocés, lo que le hace que Ron Centenario Oro destaque con notas maderosas y afrutadas, conviertendolo en un Ron perfecto para el consumo de tragos ligados.",
+            "nosing": "Destaca madera y es muy frutal.",
+            "flavor": "Madera, con notas frutales y frescas.",
+            "aging": "Sistema Tradicional"
+        },
+        "5_volcanos": {
+            "description": "Es un homenaje a los 5 volcanes activos de Costa Rica, con características únicas de frutos rojos, vainilla y roble, es un ron con gran suavidad, que permite tomarlo en las rocas o mezclado para coctelería.",
+            "nosing": "Sutiles aromas a Roble y Vainilla con un final de frutos rojos.",
+            "flavor": "Producto de cuerpo medio, con una entrada suave en boca que permite detectar los sabores a frutos rojos, vainilla y madera.",
+            "aging": "Sistema Tradicional"
+        },
+        "7_provinces": {
+            "description": "Representando la cultura y tradiciones de las 7 provincias de Costa Rica, Ron Centenario 7 Provincias Añejo Especial es el Ron con el que inició la historia de la marca Centenario. Su perfecto balance entre el sabor frutal y la madera convierten Ron Centenario 7 Provincias en un tributo al mejor ron de Costa Rica.",
+            "nosing": "Agradables aromas a miel, manzana roja y  notas de madera.",
+            "flavor": "Ligeramente dulce, madera, sabores frutales y post gusto largo.",
+            "aging": "Sistema Tradicional"
+        },
+        "9_degrees": {
+            "description": "9 grados latitud norte es la ubicación de la única bodega de añejamiento en Costa Rica, casa de Ron Centenario, esta locación está rodeada de un corredor biológico inter urbano con gran biodiversidad, donde coexisten especies de flora y fauna, con el clima ideal para añejar el mejor ron de Costa Rica, logrando rones con notas cítricas y acarameladas.",
+            "nosing": "Destaca madera, especies, notas cítricas y acarameladas. También se percibe vainilla.",
+            "flavor": "Notas acarameladas que se entrelazan a la perfección con notas cítricas, especias y madera, haciendo suave y muy agradable.",
+            "aging": "Sistema Tradicional"
+        },
+        "12_secrets": {
+            "description": "Añejado en barricas de roble blanco americano que primero contuvieron whisky escocés, representa lo mejor de nuestro sistema de Añejamiento Tradicional. Ron Centenario 12 Secretos posee un dulzor balanceado, donde destaca vainilla y  permanencia en boca única.  Con fuertes notas a frutos rojos y cuerpo equilibrado, que nos activa todos los sentidos para un recorrido perfecto. Un Ron para disfrutar solo o en las rocas. ",
+            "nosing": "Agradable aroma de frutos rojos maduros y madera.",
+            "flavor": "Ligeramente dulce con notas predominantes de vainilla, frutos rojos maduros, agradable presencia de madera y cuerpo equilibrado, con larga permanencia en boca.",
+            "aging": "Sistema Tradicional"
+        },
+        "20_years": {
+            "description": "Este ron se desarrolla en el 2005 para celebrar el vigésimo aniversario de la marca Ron Centenario. Elaborado bajo el sistema de añejamiento continuo en barriles de roble blanco americano que contuvieron whisky escocés, con rones desde 6 y hasta 20 años, lo convierten en el ron más premiado de la Familia Centenario. Su suavidad y elegancia hacen que destaque el roble, frutos rojos, notas cítricas de naranja y una sutil vainilla.",
+            "nosing": "Con una característica única para los productos de la línea Premium de Ron Centenario: el efecto retro nasal, lo que significa que con solo olerlo lo saboreamos empezamos este maravilloso recorrido sensorial. Muy frutal, sutil vainilla y madera.",
+            "flavor": "Suave, delicado, una sutil vainilla, maderoso y notas cítricas.",
+            "aging": "Proceso de añejamiento continuo en barriles"
+        },
+        "25_years": {
+            "description": "Está creado con nuestra Gran Reserva de rones seleccionados de 6 y hasta 25 años, bajo el proceso de añejamiento continuo en barriles de roble blanco americano que contuvieron Whisky Escocés. Destaca madera, frutos verdes y se perciben notas especiadas. Con larga permanencia en boca y una característica única de este producto que es seco al paladar.",
+            "nosing": "Con una característica única para los productos de la línea Premium de Ron Centenario: el efecto retro nasal, lo que significa que con solo olerlo lo saboreamos empezamos este maravilloso recorrido sensorial. Destacan especies, frutos verdes como manzana y madera.",
+            "flavor": "Destaca madera, ligeramente dulce, con una armonía perfecta entre las frutas verdes y notas especiadas. Con una característica que lo distingue que es seco al paladar.",
+            "aging": "Proceso de añejamiento continuo en barriles"
+        },
+        "30_years": {
+            "description": "Desarrollado en 2011 para conmemorar el 30 aniversario de los rones de edición limitada que le dan origen a este maravilloso proyecto, añejados bajo el proceso de añejamiento continuo en barriles de roble blanco americano que contuvieron Whisky Escocés. Con rones de 8 y hasta 30 años, con un añejamiento pausado, natural y perfeccionado por la naturaleza, Ron Centenario 30 aniversario es un ron audaz, cremoso y muy sedoso. Con gran bouquet y larga permanencia en boca. Destaca frutos rojos maduros, roble y chocolate amargo. ",
+            "nosing": "Con una característica única para los productos de la línea Premium de Ron Centenario: el efecto retro nasal, lo que significa que con solo olerlo lo saboreamos empezamos este maravilloso recorrido sensorial. Destaca madera, frutos rojos maduros y chocolate amargo.",
+            "flavor": "Cremoso y muy sedoso, con gran bouquet, larga permanencia en boca, afrutado y con notas a chocolate.",
+            "aging": "Proceso de añejamiento continuo en barriles"
+        },
+        "1985": {
+            "description": "Ron Centenario 1985 Lowlands, es una edición especial elaborada en Costa Rica.Es una mezcla de rones ligeros y pesados envejecidos en barricas de roble blanco americano que alguna vez tuvieron whisky escocés. Una selección especial de barricas de las Tierras Bajas, conservadas en un bosque de Costa Rica, para crear esta mezcla única de roble dulce, café y frutos secos",
+            "nosing": "Delicadas notas de Café tostado, vainilla, madera y frutos secos.",
+            "flavor": "Gran cremosidad en la cuál sobresalen las notas a Café tostado y frutos secos, con un final de vainilla y roble.",
+            "aging": "Sistema Tradicional"
+        }
+    },
+    "our_history": {
+        "origin_barrels": "El Origen de Nuestras Barricas",
+        "speyside": "Afrutado, Floral y Enriquecido",
+        "highlands": "Afrutado, Nueces y Especiado",
+        "lowlands": "Fresco, Herbal y Maltoso",
+        "islay": "Turboso, Ahumado y Marino",
+        "timeline": {
+            "1979": "Llegan a nuestro país barricas de roble con maltas escocesas.",
+            "1981": "En septiembre de 1981 se llena la primera barrica con Ron Centenario.",
+            "1985": "Nace nuestro primer ron.",
+            "1994": "Casi una década después del nacimiento del primer ron costarricense, creamos con orgullo Centenario Conmemorativo.",
+            "2004": "En el horizonte del ron, todavía teníamos mucho que conquistar. Por eso creamos Centenario Blanco, Centenario Añejo Especial 7 y Conmemorativo 9.",
+            "2007": "Nuestras primeras exportaciones fueron de 2 de los productos más icónicos de nuestra familia: Ron Centenario Fundación 20 y Ron Centenario Añejo Especial 7. Ambos trajeron el sabor de Costa Rica a Estados Unidos y Alemania.",
+            "2011": "Nacen nuestros mayores productos: Ron Centenario 30 Edición Limitada y la joya de nuestros rones: Centenario Real en 2015. Ganamos los premios al mejor ron del mundo y al mejor destilado del mundo.",
+            "2017": "Queríamos mostrarle al mundo cómo se elabora el mejor ron de la mejor manera. Por eso decidimos renovar nuestra imagen: cambiamos las botellas, el logo y las etiquetas.\nNuestras campañas de sustentabilidad y crecimiento social nos han posicionado como una de las marcas líderes en proyectos ambientales y sociales.\nNace nuestro sello y razón de ser: Envejecido por la naturaleza, mostrando al mundo cómo las notas de cata de nuestros rones cobran vida con la ayuda de la naturaleza."
+        }
+    },
+    "our_rums": {
+        "extracted_from_base": "Solamente se extrae un 25% de la base",
+        "aroma": "Aroma",
+        "flavor": "Sabor",
+        "aging": "Añejamiento",
+        "special_edition": "Edición Especial",
+        "liquors": "Licores",
+        "introduction": "Ron Centenario está concebido desde el alma misma de la madre tierra. Se elabora con agua pura y cristalina de montaña y se mezcla en plena selva tropical de Costa Rica, en barricas de roble blanco americano que antiguamente contenían whisky escocés. Conservado y envejecido en un lugar estratégico, rodeado de ríos y naturaleza para brindar el equilibrio perfecto entre frescura y humedad. Creado en armonía con nuestra biodiversidad, está protegido por la fauna local y perfeccionado en una bodega de ron única. Por todas estas razones podemos decir con orgullo que somos el Único Ron en Costa Rica “Envejecido por la Naturaleza”."
+    },
+    "cocktails": {
+        "introduction":"Desde los más elaborados cócteles hasta las mezclas que hacemos en casa para disfrutar con amigos y seres queridos, Ron Centenario es tu compañía perfecta para disfrutar del mundo de la coctelería.\nRecorre con nosotros por el mundo de la coctelería Tiki, los grandes clásicos reinventados a nuestro estilo y los cócteles Añejados por la Naturaleza.",
+        "find_cocktail_style": "Encuentra tu estilo de cóctel",
+        "by_product": "Por producto",
+        "by_flavor": "Por perfil de sabor",
+        "signature_cocktails": "Cócteles de autor",
+        "how_to_make_it": "¿Cómo hacerlo?",
+        "aged_by_nature": "Añejados por la naturaleza",
+        "tiki_cocktails": "Cócteles Tiki",
+        "syrups": {
+            "honeybee_and_lemongrass": {
+                "title": "Preparación del Sirope de Miel de Abeja y Zacate Limón:",
+                "text": "En una olla a temperatura baja, prepara una infusión de Zacate Limón en agua hasta que sea palpable que el agua absorvió gran parte del sabor y aroma del Zacate Limón. Si tienes disponible un \"Sous Vide\" puedes elaborar la infusión a una temperatura de 60 grados centígrados durante un periodo de 2 horas.\nUna vez que tienes la infusión lista, debes mezclar utilizando la temperatura tibia del agua infusionada, 300 ml de miel de abeja con 150 ml de agua infusionada, hasta crear una mezcla uniforme."
+            },
+            "rosemary": {
+                "title": "Preparación del Sirope de Romero:",
+                "text": "En una olla a temperatura baja, prepara una infusión de Romero en agua hasta que sea palpable que el agua absorvió gran parte del sabor y aroma del Romero. Si tienes disponible un \"Sous Vide\" puedes elaborar la infusión a una temperatura de 70 grados centígrados durante un periodo de 2 horas.\nUna vez que tienes la infusión lista, debes mezclar utilizando la temperatura tibia del agua infusionada, 300 gramos de Azúcar Refinada con 300 ml de agua infusionada, hasta crear una mezcla uniforme."
+            }
+        },
+        "sweet": "Dulce",
+        "refreshing": "Refrescante",
+        "fruity": "Frutal",
+        "spirit_forward": "Robusto",
+        "citrus": "Cítrico",
+        "method": "Método",
+        "garnish": "Guarnición",
+        "ice": "Hielo",
+        "ingredients": "Ingredientes",
+        "glass": "Vaso",
+        "levelDifficulty": "Nivel de dificultad",
+        "shake_strain": "Agitado y colado fino",
+        "chill_glass": "Copa Cóctel",
+        "none": "Ninguno",
+        "3_coffee_beans": "3 granos de café",
+        "medium": "Medio",
+        "low": "Bajo",
+        "simple_syrup": "Jarabe simple",
+        "almond_milk": "Leche de Almendras",
+        "build_stir": "Directo y Revuelto",
+        "highball": "Vaso Highball",
+        "cubed": "en cubos",
+        "orange_peel": "Cáscara de Naranja",
+        "dashes_orange_bitters": "Golpes de Bitter de Naranja",
+        "fill_tonic_water": "Rellenar con agua tónica",
+        "muddle_shake_strain": "Machacado y Agitado y Colado",
+        "double_rocks": "Vaso Rocks Doble",
+        "crushed": "Picado",
+        "pineapple_slice": "Rodaja de Piña",
+        "slices_of_lime": "Gajos de Limón Mesino",
+        "pineapple_chunks": "Trozos de Piña Fresca",
+        "bar_spoon_sugar": "Barspoon de Azúcar",
+        "build": "Directo",
+        "lime_juice": "Jugo de Limón Mesino",
+        "fill_coke": "Rellena con Cola",
+        "muddle_build_stir": "Machacado, directo y revuelto",
+        "ballon": "Copa Globo",
+        "blackberries": "Moras",
+        "strawberries": "Fresa picada",
+        "raspberries": "Frambuesa",
+        "tonic_water": "Agua Tónica",
+        "rocks": "Vaso Rocks",
+        "apple_fan": "Abanico de Manzana",
+        "bar_spoon_falernum": "Barspoon de Falernum",
+        "cube_demerara_sugar": "Barspoon de azúcar cruda",
+        "fill_apple_juice": "Rellena con jugo de Manzana",
+        "shake_fine_strain": "Agitado y colado fino",
+        "chill_coupe": "Copa Coupe",
+        "lime_peel": "Piel de Limón Mesino",
+        "honey_syrup_lemongrass": "Sirope de Miel de Abeja y Zacate Limón (2:1)",
+        "direct": "Directo",
+        "kiwi_slice": "Rodaja de Kiwi",
+        "thin_slices_kiwi": "Rodajas finas de Kiwi",
+        "fill_sparkling_water": "Rellenar con agua gasificada",
+        "build_smoked": "Directo y Ahumado (Top Smoker)",
+        "big_rock": "cubo grande",
+        "rich_demerara_syrup": "Sirope Demerara Enriquecido (2:1)",
+        "dash_of_angostura_bitters": "golpes de Bíter Aromático",
+        "smoked_cinnamon": "Ahumado con astillas de canela",
+        "gently_stir": "Revuelto delicado",
+        "sweet_vermouth": "Vermouth Rosso",
+        "amontillado_sherry": "Jerez Amontillado",
+        "dash_cocoa_bitters": "Golpes de Bitter de Cacao",
+        "shaker_and_strain_build_stair": "Agitado, colado, directo y revuelto",
+        "rosemary_spring": "Ramita de Romero ahumado",
+        "rosemary_syrup": "Sirope de Romero",
+        "fill_ginger_beer": "Rellena con Ginger Beer",
+        "skewed_red_fruits": "Un pincho de frutos rojos ",
+        "splash_tonic_water": "Splash de Agua Tónica Premium",
+        "build_and_stir": "Directo y revuelto",
+        "rocks_glass": "Vaso Rocks",
+        "blackberries_puree": "Sirope de Mora",
+        "passion_fruit_puree": "Sirope de Maracuyá",
+        "spring_basil": "Brote de Albahaca",
+        "orange_juice": "Jugo de Naranja",
+        "swizzle_stick": "Swizzle Stick",
+        "tiki_glass_highball_glass": "Vaso Tiki o Vaso Highball",
+        "mint_spring": "Brote de Hierba Buena",
+        "centenario_homemade_allspice_dram": "Allspice Dram",
+        "passion_fruit_syrup": "Sirope de Maracuyá",
+        "demerara_syrup": "Sirope de Azúcar Moreno",
+        "flamed_lime_shell_cinnamon": "Canela flambeada sobre un cascaron de Lima",
+        "granadine":"Granadina",
+        "centenario_homemade_falernum": "Falernum",
+        "soda": "Soda",
+        "swizzle": "Swizzle",
+        "large_brandi_snifer": "Copa Brand",
+        "pineapple_pure": "Sirope de Piña",
+        "agave_syrup": "Miel de Agave",
+        "skewed_blackberries": "Pincho de Moras",
+        "passion_fruit_sedes_top": "Passion Fruit Seeds on top"
+    },
+    "contact_us": {
+        "title": "¿Tiene Consultas?",
+        "form_text": "Si tienes alguna consulta, sugerencia o tienes interés en convertirte un distribuidor de Ron Centenario en tu país, por favor escríbenos y con gusto atenderemos tu solicitud.",
+        "full_name": "Nombre Completo",
+        "email": "Correo Electrónico",
+        "message": "Tu pregunta o comentario",
+        "send": "Enviar",
+        "clean": "Borrar",
+        "phone_number": "Central Telefónica"
+    },
+    "our_world": {
+      "world_medals": "Mundo de Medallas",
+      "more_medals": "Aún hay más Medallas",
+      "events": "Eventos",
+      "news": "Noticias",
+      "read_more": "Leer Mas",
+      "read_less": "Leer Menos",
+      "where_to_find_us": "DÓNDE ENCONTRARNOS",
+      "medals": {
+        "AWARD_ISW_GERMANY_2024": "Pocas cosas son tan diversas y variadas como el mundo de las bebidas espirituosas. Lo que impulsa a la industria es la creatividad desenfrenada, la búsqueda de lo extraordinario y la búsqueda de la más alta calidad. Por ello, cada vez se presta más atención a los destilados de alta calidad, se fundan nuevas destilerías, las existentes se actualizan para el futuro y la gama de productos se amplía y se vuelve más colorida. Destiladores visionarios de todo el mundo buscan nuevas ideas para mejorar aún más sus bebidas espirituosas, dejando atrás viejos caminos o volviendo deliberadamente a ellos. De este modo, las bebidas espirituosas llegan cada vez a nuevos grupos destinatarios que desean descubrir por sí mismos esta infinita variedad. Un taller en auge y una cultura de degustación son los mejores indicadores de este nuevo pensamiento de calidad por parte de los consumidores.",
+        "FIFTY_BEST_NEW_YORK_2018": "The Fifty Best realizó una degustación 'a ciegas' de 11 rones añejos con catorce miembros de nuestro panel de jueces de bebidas espirituosas. El orden de servicio se establecía previamente mediante sorteo. Se aplicaron estrictas reglas de cata. Cada uno de los rones se vertió en vasos nuevos de botellas nuevas selladas y se sirvió a una temperatura ligeramente superior a la temperatura ambiente. Los jueces anotaron sus impresiones sobre cada producto en hojas de puntuación. Las medallas dobles de oro, oro y plata se otorgan de acuerdo con un rango establecido de puntuaciones finales recibidas de los jueces.",
+        "DOUBLE_GOLD_MEDAL_FLORIDA_2018": "El concurso de cata de vinos y licores es uno de los aspectos más destacados de Access LIVE y ofrece una oportunidad extraordinaria para una exposición adicional de su marca. Esta competencia de cata a ciegas premia la excelencia en el sabor y brinda oportunidades para que marcas tanto establecidas como emergentes obtengan reconocimiento que mejorará su visibilidad durante la feria y establecerá una credibilidad duradera para sus productos.",
+        "RUM_RENAISSANCE_MIAMI_2018": "El concurso anual de degustación RumXP en el Rum Renaissance Festival se encuentra entre los eventos más prestigiosos de su tipo en el mundo y reúne a una gran cantidad de jueces de ron experimentados de todo el mundo para evaluar los mejores aguardientes de caña de cada región, cada estilo y cada categoría de ron.",
+        "ESPAÑA_DOBLE_GOLD_MEDAL_2015": "Este congreso internacional del ron es el mayor evento para especialistas en ron del mundo. Este año se celebrará en septiembre, dentro del prestigioso Hotel Biltmore en Florida. En esta nueva edición la International Rum Conference se traslada hasta Estados Unidos con la única intención de estar más cerca de los territorios donde se fabrica este espirituoso.",
+        "TOKYO_SUPERIOR_GOLD_WINNER_2023": "Es el único concurso en Japón que juzga whisky y destilados de todo el mundo con el delicado sabor de Japón. En el primer concurso celebrado en 2019, alrededor de 500 botellas de whisky y bebidas espirituosas de Japón y de todo el mundo fueron juzgadas por unos 200 jueces familiarizados con el whisky y las bebidas espirituosas de todo Japón. Con el profundo conocimiento y la pasión de los amantes y expertos del whisky y las bebidas espirituosas de Japón, nuestro objetivo es evaluar el whisky y las bebidas espirituosas de todo el mundo y promover ampliamente el whisky y las bebidas espirituosas de alta calidad tanto en Japón como en el extranjero.",
+        "ALEMANIA_SPIRIT_OF_THE_YEAR_2011": "Pocas cosas son tan diversas y variadas como el mundo de las bebidas espirituosas. Lo que impulsa a la industria es la creatividad desenfrenada, la búsqueda de lo extraordinario y la búsqueda de la más alta calidad. Por ello, cada vez se presta más atención a los destilados de alta calidad, se fundan nuevas destilerías, las existentes se actualizan para el futuro y la gama de productos se amplía y se vuelve más colorida. Destiladores visionarios de todo el mundo buscan nuevas ideas para mejorar aún más sus bebidas espirituosas, dejando atrás viejos caminos o volviendo deliberadamente a ellos. De este modo, las bebidas espirituosas llegan cada vez a nuevos grupos destinatarios que desean descubrir por sí mismos esta infinita variedad. Un taller en auge y una cultura de degustación son los mejores indicadores de este nuevo pensamiento de calidad por parte de los consumidores.",
+        "ESPAÑA_DOBLE_GOLD_MEDAL_2016": "Este congreso internacional del ron es el mayor evento para especialistas del ron en el mundo. Este año se celebrará en septiembre, en el interior del prestigioso Hotel Biltmore de Florida. En esta nueva edición, la Conferencia Internacional del Ron se traslada a Estados Unidos con la única intención de estar más cerca de los territorios donde se fabrica este espirituoso.",
+        "TOKIO_GOLD_WINNER_2022": "Es el único concurso en Japón que juzga whisky y licores de todo el mundo con el delicado sabor de Japón. En el primer concurso celebrado en 2019, alrededor de 500 botellas de whisky y bebidas espirituosas de Japón y de todo el mundo fueron juzgadas por unos 200 jueces familiarizados con el whisky y las bebidas espirituosas de todo Japón. Con el profundo conocimiento y la pasión de los amantes y expertos del whisky y las bebidas espirituosas de Japón, nuestro objetivo es evaluar el whisky y las bebidas espirituosas de todo el mundo y promover ampliamente el whisky y las bebidas espirituosas de alta calidad tanto en Japón como en el extranjero.",
+        "ESPAÑA_SILVER_MEDAL_2014": "Este congreso internacional del ron es el mayor evento para especialistas del ron en el mundo. Este año se celebrará en septiembre, en el interior del prestigioso Hotel Biltmore de Florida. En esta nueva edición, la Conferencia Internacional del Ron se traslada a Estados Unidos con la única intención de estar más cerca de los territorios donde se fabrica este espirituoso.",
+        "TOKYO_SILVER_WINNER_2023": "Es el único concurso en Japón que juzga whisky y licores de todo el mundo con el delicado sabor de Japón. En el primer concurso celebrado en 2019, alrededor de 500 botellas de whisky y bebidas espirituosas de Japón y de todo el mundo fueron juzgadas por unos 200 jueces familiarizados con el whisky y las bebidas espirituosas de todo Japón. Con el profundo conocimiento y la pasión de los amantes y expertos del whisky y las bebidas espirituosas de Japón, nuestro objetivo es evaluar el whisky y las bebidas espirituosas de todo el mundo y promover ampliamente el whisky y las bebidas espirituosas de alta calidad tanto en Japón como en el extranjero.",
+        "SPAIN_GOLD_MEDAL_2016": "Este congreso internacional del ron es el mayor evento para especialistas del ron en el mundo. Este año se celebrará en septiembre, en el interior del prestigioso Hotel Biltmore de Florida. En esta nueva edición, la Conferencia Internacional del Ron se traslada a Estados Unidos con la única intención de estar más cerca de los territorios donde se fabrica este espirituoso.",
+        "SILVER_SPIRITS_2017": "El concurso de cata de vinos y licores es uno de los aspectos más destacados de Access LIVE y ofrece una oportunidad extraordinaria para una exposición adicional de su marca. Esta competencia de cata a ciegas premia la excelencia en el sabor y brinda oportunidades para que marcas tanto establecidas como emergentes obtengan reconocimiento que mejorará su visibilidad durante la feria y establecerá una credibilidad duradera para sus productos.",
+        "ALEMANIA_SILVER_MEDAL_2012": "Pocas cosas son tan diversas y variadas como el mundo de las bebidas espirituosas. Lo que impulsa a la industria es la creatividad desenfrenada, la búsqueda de lo extraordinario y la búsqueda de la más alta calidad. Por ello, cada vez se presta más atención a los destilados de alta calidad, se fundan nuevas destilerías, las existentes se actualizan para el futuro y la gama de productos se amplía y se vuelve más colorida. Destiladores visionarios de todo el mundo buscan nuevas ideas para mejorar aún más sus bebidas espirituosas, dejando atrás viejos caminos o volviendo deliberadamente a ellos. De este modo, las bebidas espirituosas llegan cada vez a nuevos grupos destinatarios que desean descubrir por sí mismos esta infinita variedad. Un taller en auge y una cultura de degustación son los mejores indicadores de este nuevo pensamiento de calidad por parte de los consumidores.",
+        "ALEMANIA_SILVER_MEDAL_2007": "Pocas cosas son tan diversas y variadas como el mundo de las bebidas espirituosas. Lo que impulsa a la industria es la creatividad desenfrenada, la búsqueda de lo extraordinario y la búsqueda de la más alta calidad. Por ello, cada vez se presta más atención a los destilados de alta calidad, se fundan nuevas destilerías, las existentes se actualizan para el futuro y la gama de productos se amplía y se vuelve más colorida. Destiladores visionarios de todo el mundo buscan nuevas ideas para mejorar aún más sus bebidas espirituosas, dejando atrás viejos caminos o volviendo deliberadamente a ellos. De este modo, las bebidas espirituosas llegan cada vez a nuevos grupos destinatarios que desean descubrir por sí mismos esta infinita variedad. Un taller en auge y una cultura de degustación son los mejores indicadores de este nuevo pensamiento de calidad por parte de los consumidores.",
+        "WORLD_SPIRITS_SILVER_2019": "Fundada en 2000, la Competencia San Francisco World Spirits es la competencia más grande y antigua de su tipo. Los concursos de Tasting Alliance se consideran los más influyentes por una razón. Obtener una medalla de la organización no solo ayuda a las marcas a ingresar y destacarse en los mercados de EE. UU. e internacionales, sino que también es el siguiente paso fundamental para que cualquier productor obtenga reconocimiento en la industria y entre los consumidores.",
+        "ESPAÑA_SILVER_MEDAL_2012": "Este congreso internacional del ron es el mayor evento para especialistas del ron en el mundo. Este año se celebrará en septiembre, en el interior del prestigioso Hotel Biltmore de Florida. En esta nueva edición, la Conferencia Internacional del Ron se traslada a Estados Unidos con la única intención de estar más cerca de los territorios donde se fabrica este espirituoso.",
+        "MADRID_RUM_CONFERENCE_SILVER_2018": "Este congreso internacional del ron es el mayor evento para especialistas del ron en el mundo. Este año se celebrará en septiembre, en el interior del prestigioso Hotel Biltmore de Florida. En esta nueva edición, la Conferencia Internacional del Ron se traslada a Estados Unidos con la única intención de estar más cerca de los territorios donde se fabrica este espirituoso."
+      },
+      "events_data": {
+        "paris_rum_fest": {
+          "title": "Ron Centenario en el Paris Rhum Fest",
+          "text": "Los amantes del Ron tendrán nuevamente la oportunidad de deleitar sus paladares con Ron Centenario en la décima edición del Paris Rhum Fest, a llevarse a cabo desde el 4 hasta el 6 de mayo en el Parc Floral de Paris. \nLos tres días evento incluyen oportunidades tanto para aficionados como para profesionales de probar y experimentar las diversas sensaciones del Ron Añejado por la Naturaleza. \nLos asistentes tendrán la posibilidad de realizar todas las consultas al embajador Global de la marca Miguel Sequeira, quien estará presente en la feria durante los tres días y ofrecerá para degustación de todos los participantes, el portafolio de Ron Centenario disponible en Francia, el cuál incluye las siguientes expresiones: \nRon Centenario 7 Provincias, Ron Centenario 9 Grados, Ron Centenario 12 Secretos, Ron Centenario 20 Fundación, Ron Centenario 25 Aniversario y Ron Centenario 30 Aniversario."
+        },
+        "pro_wein": {
+          "title": "Ron Centenario presente en la feria de negocios Pro Wein 2024",
+          "text": "Durante los días 10, 11 y 12 de marzo del 2024 Ron Centenario estará participando en la prestigiosa feria de negocios Pro Wein. \nPro Wein se lleva a cabo en la ciudad alemana de Dusseldorf y cuenta con la participación de más de 5000 Exhibidores de productos y servicios, así como 50 000 asistentes interesados en la industria de las bebidas incluyendo vinos, destilados, licores, cervezas, mixers y servicios relacionados con la industria de bebidas y hospitalidad. \nRon Centenario participa de la mano y colaboración de Sierra Madre su distribuidor para el mercado alemán y varios mercados europeos. Sierra Madre ayuda impulsar la presencia de Ron Centenario en esta y otras ferias de gran importancia a nivel alemán y europeo."
+        },
+        "foodex": {
+          "title": "Ron Centenario estará presente en FOODEX Japan 2024",
+          "text": "Ron Centenario con el apoyo de la Promotora de Exportaciones de Costa Rica PROCOMER, tendrá la gran oportunidad de participar la próxima edición del festival FOODEX a llevarse a cabo en Tokio Japón durante los días 5, 6, 7 y 8 de marzo del 2024. \nFOODEX es la feria de Alimentos y Bebidas más grande Asia y durante los últimos años PROCOMER a impulsado la participación de empresarios exportadores de Costa Rica para que promocionen sus diversos productos en esta feria. \nPara la edición del 2024, Ron Centenario contará con un stand dentro del espacio reservado para la delegación de Costa Rica, en el cual se exhibirá el actual portafolio de Ron Centenario disponible para el mercado japonés y que está compuesto de los siguientes productos: \nRon Centenario 9 Grados, Ron Centenario 12 Secretos, Ron Centenario 20 Fundación, Ron Centenario 30 Aniversario y el Licor Centenario Café. Sumado a este portafolio se aprovechará la oportunidad para lanzar y exponer la nueva incorporación de Ron Centenario 25 Aniversario al portafolio de Japón. \nLa delegación estará compuesta por el Global Brand Ambassador de Ron Centenario Miguel Sequeira y personeros de la oficina de PROCOMER en Japón quienes asistirán en temas de exhibición y traducción. \nRon Centenario es distribuido en Japón por la empresa Toko Trading Co y se distribuye en la famosa cadena de licores Liquor Mountain."
+        }
+      },
+      "news_data": {
+        "inGermany": {
+          "title": "Dobles medallas de Oro para Ron Centenario en Alemania ",
+          "text": "La prestigiosa competencia internacional de Licores y Destilados “Meininger´s International Spirits Awards” otorgó durante Julio, 2023 dobles premiaciones para Ron Centenario, premiando a Ron Centenario 20 Fundación y Ron Centenario 12 Secretos con una medalla de Oro para cada uno, reafirmando una vez más la gran calidad que Ron Centenario exporta desde Costa Rica para el mundo. \nCon uno de los paneles de jueces más exigentes a nivel mundial, estas medallas otorgadas por el IWS colocan a Centenario como uno de los Rones de mayor prestigio a nivel mundial y le brindan plena confianza a los consumidores y amantes del Ron en todo el mundo para que consuman este delicioso tesoro costarricense.",
+          "date": "San José, 14-02-2024"
+        },
+        "inItaly": {
+          "title": "Ron Centenario enamora al mercado Italiano ",
+          "text": "Durante el pasado 26 de enero del 2024, una delegación de Ron Centenario fue partícipe de la reunión anual de ventas del distribuidor de Licores y Destilados Rinaldi 1957 llevada a cabo en Bologna, Italia. \nLa delegación integrada por Dianne Medrano Gerente General, Jeannette Coto Gerente de Mercadeo Internacional, Ericka Pereira Ejecutiva de Negocios Internacionales, Miguel Sequeira Embajador Global de la Marca y Santiago Rocha Asesor de Negocios, expuso a todos los participantes toda la magia detrás de Ron Centenario. \nEn la sesión participaron más de 150 miembros de la fuerza de ventas de Rinaldi 1957, en la cual cada uno recibió como obsequio de la marca un Tasting Set que incluye una muestra de 50 ml de las presentaciones de Ron Centenario 9 Grados, 12 Secretos, 20 Fundación, 25 Aniversario y 30 Aniversario. \nEsta reunión de vendedores fue la ocasión perfecta para dar a conocer Ron Centenario a la fuerza de Ventas que estará a cargo de colocar Ron Centenario y posicionarla dentro del mercado italiano.",
+          "date": "San José, 14-02-2024"
+        },
+        "inJapon": {
+          "title": "Ron Centenario brilla y conquista el mercado Japonés",
+          "text": "Durante el pasado mes de Mayo, 2023 la prestigiosa competencia de destilados “Tokyo Whisky & Spirits Competition (TWSC)” condecoró a Ron Centenario con el galardón “Superior Gold” en la categoría de sistema Solera al producto Ron Centenario 30 Aniversario. \nEste reconocimiento premia la gran calidad de Ron Centenario y excelente trabajo de su Maestra Ronera Susana Masis, quien es la encargada de formular y elaborar el único Ron “Añejado por la Naturaleza” \nEl TWSC es el único concurso en Japón que juzga whisky y destilados de todo el mundo con el delicado sabor de Japón. En el primer concurso celebrado en 2019, alrededor de 500 botellas de whisky y bebidas espirituosas de Japón y de todo el mundo fueron juzgadas por unos 200 jueces familiarizados con el whisky y las bebidas espirituosas de todo Japón. Con el profundo conocimiento y la pasión de los amantes y expertos del whisky y las bebidas espirituosas de Japón, nuestro objetivo es evaluar el whisky y las bebidas espirituosas de todo el mundo y promover ampliamente el whisky y las bebidas espirituosas de alta calidad tanto en Japón como en el extranjero.",
+          "date": "San José, 14-02-2024"
+        }
+      }
+    },
+    "continuos_aging_system": {
+        "title": "Sistema Continuo de Añejamiento",
+        "paragraph1": "Este sistema está reservado para nuestra selección premium de rones y se inspira en el famoso sistema de añejamiento “Solera”.",
+        "paragraph2": "Su funcionamiento establece que los barriles serán acomodados en diferentes niveles de altura. El primer nivel que es el más bajo se denomina “Solera”. Esta palabra significa suelo y hace referencia al nivel de barrilles más cercano al suelo. En este nivel se colocan los Rones con mayor edad de añejamiento.",
+        "paragraph3": "Los niveles que se colocan arriba de la Solera son llamados “Criaderas” y en ellos se colocan rones más jóvenes conforme más alto sea el nivel. El nivel más alto, llamado Criadera 1 contiene los rones más jóvenes de todo el sistema, y a partir de dicho nivel se hacen extracciones las cuales rellenan en forma de cascada los niveles inferiores, los cuales cada nivel contiene rones más antiguos, hasta que dicho relleno de cascada llega hasta la Solera.",
+        "paragraph4": "Una vez finalizado el proceso, nuestra Maestra Mezcladora extraerá únicamente un 25% del líquido que está en la Solera y con ese producto procede a embotellar el producto final.",
+        "paragraph5": "Las presentaciones de Ron Centenario que se producen bajo este sistema de añejamiento son:"
+    },
+    "traditional_aging_system": {
+        "title": "Sistema de Añejamiento Tradicional",
+        "paragraph1": "Previo a introducir nuestros rones pesados y livianos en las barricas de Roble Blanco Americano, las cuales previamente añejaron Whisky Escocés, a estos se les reduce la graduación alcohólica, aproximadamente a 60% AVB, con el objetivo de reducir el efecto del “Angel Share” también conocida como “Porción de los Ángeles”.",
+        "paragraph2": "Posteriormente los rones pesados y livianos se introducen en las barricas de manera separada y en ellas reposarán el tiempo requerido para su maduración, dependiendo de la edad que nuestra maestra ronera requiera.",
+        "paragraph3": "Una vez que este proceso finaliza, los rones se extraen de las barricas y se mezclan para dar vida y sabor a cada una de nuestras presentaciones. Cuando el “Blending” está listo, utilizando agua desmineralizada a través de Osmosis Inversa, el producto se embotella a la graduación alcohólica que las regulaciones de su mercado de destino lo indiquen.",
+        "paragraph4": "Las presentaciones de Ron Centenario que se añejan bajo este sistema son:",
+        "alcohol": "Alcohol al 96%",
+        "light_rum": "Ron liviano 55%",
+        "raw_rum": "Ron crudo",
+        "heavy_rum": "Ron pesado 55%",
+        "demineralized_water": "Agua Desmineralizada a través de Osmosis Inversa",
+        "blending":"Mezclado",
+        "bottling": "Embotellado",
+        "age_white_oak": "Añejado en barricas de Roble Blanco Americano previamente quemadas internamente",
+        "first_use": "Uso previo de las barricas: Whisky Escocés"
+    }
+}

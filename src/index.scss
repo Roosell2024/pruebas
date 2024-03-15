@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("./assets/fonts/index.scss");
+
+@layer utilities {
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .scrollbar-default {
+        -ms-overflow-style: auto;
+        scrollbar-width: auto;
+
+        &::-webkit-scrollbar {
+            display: block;
+        }
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: 'Akhand', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.base-background {
+    background-color: transparent; // TODO: Eliminar cuando se agreguen todos los fondos
+}
+
+.footer-background {
+    background: radial-gradient(205% 170% at left top, white 50%, #012D25 50.1%);
+}
+
+.transform-50 {
+    transform: translate(-50%, -100%);
+}
+
+.coin {
+    background-size: cover;
+    position: relative;
+    perspective: 1000px; // Add perspective to give depth perception
+}
+
+.coin:before,
+.coin:after {
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden; // Hide the back face during the flip
+}
+
+.coin:before {
+    transform: rotateY(0deg);
+}
+
+.coin:after {
+    transform: rotateY(180deg);
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+
+@layer utilities {
+    .coin.flipping {
+        animation: flip infinite 800ms ease-in-out;
+    }
+}
+
+.sliders-rums {
+    .slick-prev:before,
+    .slick-next:before {
+        @apply text-green-300;
+        @media screen and (min-width: 640px){
+            @apply text-3xl;
+            
+        }
+    }
+    img {
+        display: inline-block !important;
+    }
+}
+
+// MAPA MUNDI
+.cls-1 {
+    fill: #84a39c;
+}
+
+.cls-2 {
+    fill: #fff;
+}
+
+.cls-3 {
+    fill: none;
+    stroke: #84a39c;
+    stroke-linejoin: round;
+    stroke-width: 4px;
+}
+
+.yt-lite > .lty-playbtn{
+    width: 68px;
+    height: 48px;
+    border-radius: 20%;
+}

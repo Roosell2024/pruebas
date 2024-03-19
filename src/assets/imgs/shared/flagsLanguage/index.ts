@@ -1,6 +1,6 @@
-import SpFlag from './sp-flag.svg';
-import EnFlag from './en-flag.svg';
-import FrFlag from './fr-flag.svg';
+import SpFlag from './sp.svg';
+import EnFlag from './en.svg';
+import FrFlag from './fr.svg';
 
 
 export {

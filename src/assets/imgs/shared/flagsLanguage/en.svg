@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="flag-icons-gb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 640 480" style="enable-background:new 0 0 640 480;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#012169;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#C8102E;}
+	.st3{fill:#D9D9D9;filter:url(#Adobe_OpacityMaskFilter);}
+	.st4{mask:url(#mask0_298_256_00000111161381348935014300000001077356848041702060_);}
+	.st5{fill:none;}
+</style>
+<path class="st0" d="M0,0h640v480H0V0z"/>
+<path class="st1" d="M75,0l244,181L562,0h78v62L400,241l240,178v61h-80L320,301L81,480H0v-60l239-178L0,64V0H75z"/>
+<path class="st2" d="M424,281l216,159v40L369,281H424z M240,301l6,35L54,480H0L240,301z M640,0v3L391,191l2-44L590,0H640z M0,0
+	l239,176h-60L0,42V0z"/>
+<path class="st1" d="M241,0v480h160V0H241z M0,160v160h640V160H0z"/>
+<path class="st2" d="M0,193v96h640v-96H0z M273,0v480h96V0H273z"/>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-212" y="-84.8" width="1065.9" height="639.5">
+		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="-212" y="-84.8" width="1065.9" height="639.5" id="mask0_298_256_00000111161381348935014300000001077356848041702060_">
+	<circle class="st3" cx="324.8" cy="223.6" r="319.8"/>
+</mask>
+<g class="st4">
+	<rect x="-212" y="-84.8" class="st5" width="1065.9" height="639.5"/>
+	<path class="st1" d="M435.3,276.9V203h16.2v30.4h14.7V203h16.2v73.9h-16.2v-29.2h-14.7v29.2H435.3z"/>
+	<path class="st1" d="M406.8,249.7l-12.8-8.3c-6.4-4.2-10-10.1-10-18.1v-2.5c0-11.3,6.6-18.9,21.6-18.9c15,0,21.7,7.6,21.7,18.9v5.8
+		h-16.2v-5.1c0-3.2-1.2-5.1-5.5-5.1c-4.4,0-5.4,1.8-5.4,5.1v1.5c0,2.9,1.2,4.9,5.3,7.6l12.9,8.3c6.9,4.5,9.4,9.6,9.4,17.9v2.3
+		c0,11.3-7.1,18.9-22.2,18.9c-15,0-22.1-7.6-22.1-18.9v-5.6h16.2v5c0,3.2,1.4,5.1,5.9,5.1c4.5,0,6-1.8,6-5.1V257
+		C411.6,254,410.8,252.2,406.8,249.7z"/>
+	<path class="st1" d="M376.1,276.9h-16.2V203h16.2V276.9z"/>
+	<path class="st1" d="M354.1,263v13.9h-35.9V203h16.2v60H354.1z"/>
+	<path class="st1" d="M263.4,259.1V221c0-11.3,7.2-19.1,22.3-19.1c15,0,22.4,7.8,22.4,19.1v5.3h-16v-4.5c0-3.2-1.9-5.3-6.4-5.3
+		c-4.5,0-6.3,2-6.3,5.3V258c0,3.2,1.9,5.3,6.4,5.3c4.5,0,6.3-2,6.3-5.3v-10h-5.8v-13.9h21.6v42.7h-15v-7.1c0,1.3-3.1,7.7-12.2,7.7
+		C268.8,277.4,263.4,269.6,263.4,259.1z"/>
+	<path class="st1" d="M238.5,276.9l-9.9-25.4c-6-15.2-8.3-23.6-8.7-24.7c0.4,1.3,2.7,10.6,2.7,30.5v19.6h-15.8V203h15.8l9.7,24.7
+		c5.6,14.5,8,22.7,8.4,24.5c-0.5-1.9-2.6-11.6-2.6-30.7V203h15.8v73.9H238.5z"/>
+	<path class="st1" d="M198.7,263v13.9h-37.4V203h37.4v13.9h-21.4v15.7h18.5v13.9h-18.5V263H198.7z"/>
+</g>
+</svg>

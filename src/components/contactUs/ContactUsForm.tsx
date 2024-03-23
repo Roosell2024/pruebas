@@ -51,7 +51,7 @@ export const ContactUsForm = () => {
     }
   };
   return (
-    <div className={`${isSmallDevice ? 'mt-20' : 'mt-56'}  xl:px-24 px-10 sm:grid grid-cols-2 gap-10`}>
+    <div className={`${isSmallDevice ? 'mt-20' : 'mt-72'}  xl:px-24 px-10 sm:grid grid-cols-2 gap-10`}>
       <div className="xl:h-md:w-114 lg:h-sm:w-96 lg:w-80 sm:mb-0 mb-10">
         <h1 className="uppercase text-5xl font-extrabold sm:text-green-300 text-gold">{t('contact_us.title')}</h1>
         <p className="pt-5 text-green-300 text-lg font-normal text-justify">{t('contact_us.form_text')}</p>

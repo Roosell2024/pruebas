@@ -49,7 +49,7 @@ export const CocktailItemSlider = ({ cocktail, firstOne, lastOne }: Props) => {
           {cocktail.ingredients &&
             cocktail.ingredients.map((ingredient) => (
               <div className="text-center" key={ingredient.name}>
-                <div className="bg-gold inline-flex justify-center items-center rounded-full 2xl:w-[100px] 2xl:h-[100px] w-[70px] h-[70px]">
+                <div className="bg-gold inline-flex justify-center items-center rounded-full 2xl:w-[85px] 2xl:h-[85px] w-[70px] h-[70px]">
                   <p className="font-bold xl:text-2xl text-xl">
                     {ingredient.hasIcon ? (
                       <img src={ingredient.quantity} alt={ingredient.name} className={ingredient.customClass} />

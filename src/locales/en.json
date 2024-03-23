@@ -1,4 +1,5 @@
 {
+    "close": "Close",
     "medals_awards": "Medals and awards",
     "loading":"Loading",
     "email_sent": "Email sent",
@@ -19,7 +20,7 @@
             "aging": "N/A"
         },
         "anejo_claro": {
-            "description": "The only rum from the Centenario family that has triple filtration, with a carefully selected activated carbon treatment so that it only removes color and leaves its color and mild flavor intact. It is a product specially designed for use in cocktails.",
+            "description": "The only rum from the Centenario family that has triple filtration, with a carefully selected activated carbon treatment so that it only removes color and leaves its aromas and mild flavor intact. It is a product specially designed for use in cocktails.",
             "nosing": "Highlights wood and vanilla",
             "flavor": "Soft on the palate, with notes of vanilla, light sweetness and a characteristic oak flavor.",
             "aging": "Traditional System"

@@ -21,9 +21,9 @@ export const EventItemSlider = ({ eventItem, lastOne }: Props) => {
 
   return (
     <div
-      className={`flex md:flex-row flex-col-reverse md:justify-start  justify-center md:items-start items-center w-full min-w-max md:mt-11 mt-5 ${lastOne && 'md:mr-[25rem] mr-5'}`}
+      className={`flex md:flex-row flex-col-reverse md:justify-start justify-center md:items-start items-center w-full min-w-max md:mt-11 mt-5 ${lastOne && 'md:mr-[25rem] mr-5'}`}
     >
-      <div className="flex flex-col md:justify-between justify-center ml-1 md:ml-16 md:p-0 p-5">
+      <div className="flex flex-col md:justify-between justify-center md:ml-16">
         <h3 className="text-xl w-52 mt-16 font-extrabold text-green-300 md:block hidden">{t(eventItem.title)}</h3>
         <p
           className={`${

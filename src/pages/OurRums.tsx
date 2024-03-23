@@ -33,7 +33,7 @@ export const OurRums = () => {
       <img src={OrangeIcon} alt="orange icon" className="absolute top-72 right-44 sm:block hidden" />
       <img src={HojaIcon} alt="Leaf" className="absolute top-[38rem] 2xl:left-52 left-20 sm:block hidden" />
 
-      <div className="sm:grid grid-cols-2 items-center sm:m-0 -mt-14">
+      <div className="sm:grid grid-cols-2 items-center sm:m-0 xs:-mt-14">
         <div className="flex sm:justify-end justify-center">
           <img src={Bottles} alt="Bottles" className="z-10 sm:w-[500px] w-80" />
         </div>

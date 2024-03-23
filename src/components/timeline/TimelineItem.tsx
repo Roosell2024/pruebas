@@ -29,7 +29,7 @@ export const TimelineItem: React.FC<Props> = ({ year, image, text, width, lastOn
         }`}
       />
 
-      <div className="absolute top-[16rem] p-4">
+      <div className="absolute top-[16rem] p-4 text-center w-full">
         <time className="text-lg font-semibold">{year}</time>
         <p>{t(text)}</p>
       </div>

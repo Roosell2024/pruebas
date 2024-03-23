@@ -12,7 +12,7 @@ export const OurWorld = () => {
       <div className="absolute md:left-0 md:right-0 md:-top-60 top-10 md:transform-50 md:ml-0 ml-4 mx-auto text-center">
         <AgedByNatureLogo className="sm:w-80 sm:h-80 w-52 inline-block" />
       </div>
-      <div className="sm:px-36 pt-48 md:pt-28 md:px-5 px-16  sm:mb-44 md:text-left text-right md:mt-64">
+      <div className="sm:px-36 pt-48 md:pt-28 md:px-5 xs:px-12 sm:mb-44 md:text-left text-center md:mt-64">
         <h1 className="uppercase font-bold md:text-6xl text-5xl md:w-96 w-80 text-gold inline-block">{t('menu.our_world')}</h1>
       </div>
 

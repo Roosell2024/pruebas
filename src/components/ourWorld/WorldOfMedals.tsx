@@ -1,6 +1,6 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 import { MedalsSlider } from './MedalsSlider';
-import { OrangeIcon } from "../../assets/imgs/shared";
+import { OrangeIcon } from '../../assets/imgs/shared';
 
 export const WorldOfMedals = () => {
   const { t } = useTranslation();
@@ -16,9 +16,9 @@ export const WorldOfMedals = () => {
           className="md:w-52 md:h-52 w-52 h-52 object-contain md:rotate-[50deg] rotate-[55deg] absolute md:top-[40rem] md:left-36 left-48 top-[18rem] md:block "
         />
       </div>
-      <div className="w-full md:ml-0 -ml-5">
+      <div className="w-full xs:ml-0 -ml-5">
         <MedalsSlider />
       </div>
     </div>
   );
-}
+};

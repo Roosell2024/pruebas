@@ -1,4 +1,5 @@
 {
+    "close": "Cerrar",
     "medals_awards": "MEDALLAS Y PREMIOS",
     "loading":"Cargando",
     "email_sent": "Correo enviado",
@@ -19,7 +20,7 @@
             "aging": "N/A"
         },
         "anejo_claro": {
-            "description": "Único Ron de la familia Centenario que tiene triple filtración, con un tratamiento  carbón activo cuidadosamente seleccionado para que solo elimine color y deje íntegro su color y suave sabor. Es un producto diseñado  especialmente para su uso en coctelería.",
+            "description": "Único Ron de la familia Centenario que tiene triple filtración, con un tratamiento de carbón activo cuidadosamente seleccionado para que solo elimine color y deje integro su aroma y suave sabor. Es un producto diseñado especialmente para su uso en coctelería",
             "nosing": "Destaca madera y vainilla",
             "flavor": "Suave al paladar, con notas a  vainilla, ligero dulzor y con característico sabor a roble.",
             "aging": "Sistema Tradicional"

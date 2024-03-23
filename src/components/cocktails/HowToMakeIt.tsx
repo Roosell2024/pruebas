@@ -52,7 +52,7 @@ export const HowToMakeIt = ({ videoId, name }: Props) => {
     return (
       <div className="mt-10 text-center">
         <button
-          className="rounded-2xl bg-error-600 text-white-50 px-10 py-5 text-4xl uppercase inline-block w-80"
+          className="rounded-2xl bg-error-600 text-white-50 h-lg:xs:px-10 px-5 py-5 text-4xl uppercase inline-block h-lg:xs:w-80"
           onClick={() => setOpenModal(true)}
         >
           {t('cocktails.how_to_make_it')}

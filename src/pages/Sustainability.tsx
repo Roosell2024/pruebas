@@ -26,7 +26,7 @@ export const Sustainability = () => {
         />
       )}
 
-      <div className={`text-center sm:mt-28  ${isSmallDevice ? 'mt-20' : ''} `}>
+      <div className="text-center sm:mt-28 mt-36">
         <img
           alt="logo_anejado"
           className={`${isSmallDevice ? 'w-64 h-64' : 'w-144 h-144'} inline-block mb-20`}

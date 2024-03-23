@@ -59,7 +59,7 @@ export const Cocktails = () => {
       />
 
       <div className="sm:pt-80 pt-40 sm:mb-28">
-        <h1 className="uppercase font-extrabold text-6xl text-gold text-left sm:px-0 px-10">{t('menu.cocktails')}</h1>
+        <h1 className="uppercase font-extrabold h-lg:xs:text-6xl text-5xl text-gold text-left sm:px-0 px-10">{t('menu.cocktails')}</h1>
       </div>
 
       <div className="relative sm:my-56 -mt-44 sm:text-center text-right">

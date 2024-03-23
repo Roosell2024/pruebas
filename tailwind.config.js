@@ -98,7 +98,7 @@ export default {
     },
     screens: {
       ...defaultTheme.screens,
-      xs: { raw: '(min-width: 320px)' },
+      xs: { raw: '(min-width: 361px)' },
       'h-xs': { raw: '(min-height: 320px)' },
       'h-sm': { raw: '(min-height: 600px)' },
       'h-md': { raw: '(min-height: 840px)' },

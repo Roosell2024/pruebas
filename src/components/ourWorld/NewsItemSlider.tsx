@@ -33,14 +33,14 @@ export const NewItemSlider = ({ newItem, lastOne }: Props) => {
           : {
               transition: '.3s',
               maxHeight: stage === 'enter' ? '800px' : '600px',
-              width: '350px',
+              width: '310px',
             }
       }
     >
       <div className="flex flex-col w-full md:justify-start md:items-start justify-center items-center">
         <h3 className="text-2xl font-extrabold text-green-300">{t(newItem.title)}</h3>
         <img src={newItem.img} alt="" className="mt-6 w-full" />
-        <div className="flex flex-col md:w-full md:max-w-full max-w-[350px]">
+        <div className="flex flex-col md:w-full md:max-w-full max-w-[310px]">
           <p className="text-green-300 text-lg font-normal pt-5 pb-1 md:pl-0 pl-3">{t(newItem.date)}</p>
           <p
             className={`${!open ? 'overflow-hidden line-clamp-6' : 'overflow-y-auto pr-1'}  text-green-300 text-justify`}
@@ -53,7 +53,7 @@ export const NewItemSlider = ({ newItem, lastOne }: Props) => {
                   }
                 : {
                     transition: '.3s',
-                    width: '20rem',
+                    width: '18rem',
                     maxHeight: stage === 'enter' ? '18rem' : '13rem',
                   }
             }

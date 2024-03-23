@@ -48,30 +48,6 @@ body {
     transform: translate(-50%, -100%);
 }
 
-.coin {
-    background-size: cover;
-    position: relative;
-    perspective: 1000px; // Add perspective to give depth perception
-}
-
-.coin:before,
-.coin:after {
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    backface-visibility: hidden; // Hide the back face during the flip
-}
-
-.coin:before {
-    transform: rotateY(0deg);
-}
-
-.coin:after {
-    transform: rotateY(180deg);
-}
-
 @keyframes flip {
     0% {
         transform: rotateY(0deg);
@@ -85,7 +61,6 @@ body {
         transform: rotateY(360deg);
     }
 }
-
 
 @layer utilities {
     .coin.flipping {

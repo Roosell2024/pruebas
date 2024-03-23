@@ -11,10 +11,10 @@ export const ContactUs = () => {
   const isSmallDevice = useMediaQuery(mobileBreakpoint);
   return (
     <section className="2xl:px-52 xl:px-36 lg:px-28 relative">
-      <div className={`absolute left-1/2 transform-50 ${isSmallDevice ? ' top-10' : ' top-36'} `}>
+      <div className={`absolute left-1/2 transform-50 md:top-36 top-24`}>
         <AgedByNatureLogo className="w-96 h-96" />
       </div>
-      <div className={` sm:px-36 mt-64 ${isSmallDevice ? 'pt-2' : 'pt-28'}`}>
+      <div className="sm:px-36 mt-44 pt-2 md:pt-28">
         <h1
           className={`uppercase font-bold text-gold sm:text-left text-center ${!isSmallDevice ? 'text-6xl' : 'text-5xl'}`}
         >
@@ -32,7 +32,7 @@ export const ContactUs = () => {
 
       <ContactUsForm />
 
-      <div className="sm:flex items-center justify-center sm:mt-32 mt-20 sm:px-0 px-10">
+      <div className="sm:flex items-center justify-center sm:mt-32 mt-20 sm:px-0 px-8">
         <div className="flex flex-col gap-8">
           <div className="flex flex-row items-center gap-4">
             <img src={CelIcon} alt="Cel" className={`${isSmallDevice ? 'w-20' : ''}`} />
@@ -61,8 +61,8 @@ export const ContactUs = () => {
         <div
           className={`${
             isSmallDevice
-              ? `w-[300px] h-[20px] border-green-100 border-b-[3px] border-dashed mx-1 my-12 relative
-        before:h-5 before:w-5 before:bg-green-300 before:absolute before:left-[18.9rem] before:top-2 before:rounded-full
+              ? `xs:w-[300px] w-[250px] h-[20px] border-green-100 border-b-[3px] border-dashed mx-1 my-12 relative
+        before:h-5 before:w-5 before:bg-green-300 before:absolute before:xs:left-[18.9rem] before:left-[15rem] before:top-2 before:rounded-full
         after:h-5 after:w-5 after:bg-green-300 after:absolute after:-left-[12px] after:-bottom-3 after:rounded-full `
               : `h-[400px] border-green-100 border-l-[3px] border-dashed xl:mx-44 mx-32 relative
         before:h-5 before:w-5 before:bg-green-300 before:absolute before:-left-[12px] before:-top-2 before:rounded-full

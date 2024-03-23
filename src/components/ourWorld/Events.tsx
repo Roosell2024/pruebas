@@ -8,7 +8,7 @@ export const Events = () => {
       <div className="md:w-1/4 md:h-md:ml-40">
         <h1 className="uppercase text-5xl w-52 mt-16 font-extrabold text-green-300">{t('our_world.events')}</h1>
       </div>
-      <div className="w-full md:h-md:ml-96 ml-0 transform scale-110">
+      <div className="w-full md:h-md:ml-96 ml-0">
         <EventSlider />
       </div>
     </div>

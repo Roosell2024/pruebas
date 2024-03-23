@@ -9,7 +9,7 @@ export const EventSlider = () => {
   const { events } = useDraggable(timelineRef);
   return (
     <div className="flex w-full overflow-x-scroll scrollbar-hide " {...events} ref={timelineRef}>
-      <div className="flex">
+      <div className="flex md:gap-0 gap-x-20 ">
         {eventsData.map((event, i) => (
           <EventItemSlider key={i} eventItem={event} lastOne={i === eventsData.length - 1} />
         ))}

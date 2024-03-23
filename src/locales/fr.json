@@ -1,4 +1,5 @@
 {
+    "close": "Fermer",
     "medals_awards": "MÉDAILLES ET RÉCOMPENSES",
     "loading":"Chargement",
     "email_sent": "Mail envoyé",
@@ -19,7 +20,7 @@
             "aging": "N/A"
         },
         "anejo_claro": {
-            "description": "Le seul rhum de la famille Centenario doté d'une triple filtration, avec un traitement au charbon actif soigneusement sélectionné afin qu'il n'enlève que la couleur et laisse intactes sa couleur et sa saveur douce. C'est un produit spécialement conçu pour être utilisé dans les cocktails.",
+            "description": "Le seul rhum de la famille Centenario doté d'une triple filtration, avec un traitement au charbon actif soigneusement sélectionné afin qu'il n'enlève que la couleur et laisse intactes son parfum et sa saveur douce. C'est un produit spécialement conçu pour être utilisé dans les cocktails.",
             "nosing": "Bois et Vanille",
             "flavor": "Doux en bouche, avec des notes de vanille, une légère douceur et une saveur de chêne caractéristique.",
             "aging": "Système traditionnel"

@@ -17,8 +17,8 @@ export const CocktailItemSlider = ({ cocktail, firstOne, lastOne }: Props) => {
       className={`sm:flex relative items-center 2xl:gap-16 xl:gap-4 gap-2 justify-center text-green-100 uppercase 2xl:w-[1450px] lg:w-[1000px] mr-20 ${firstOne ? 'pl-5' : ''}`}
       tabIndex={-1}
     >
-      <img src={cocktail.img} alt="" className="w-96" />
-      <div className="2xl:w-[500px] sm:w-[400px] w-[380px]">
+      <img src={cocktail.img} alt={`${cocktail.name}-img`} className="h-lg:xs:w-96 w-80" />
+      <div className="2xl:w-[500px] sm:w-[400px] xs:w-[380px] w-[350px]">
         <h4 className="font-bold text-4xl mb-5">{cocktail.name}</h4>
         <p className="text-2xl">
           <span className="font-bold uppercase">{t('cocktails.method')}:</span> {t(`cocktails.${cocktail.method}`)}
@@ -45,7 +45,7 @@ export const CocktailItemSlider = ({ cocktail, firstOne, lastOne }: Props) => {
         )}
 
         <h6 className="font-bold text-3xl my-5 uppercase">{t('cocktails.ingredients')}</h6>
-        <div className="grid grid-cols-4 gap-2 leading-4">
+        <div className="grid xs:grid-cols-4 grid-cols-3 gap-2 leading-4">
           {cocktail.ingredients &&
             cocktail.ingredients.map((ingredient) => (
               <div className="text-center" key={ingredient.name}>

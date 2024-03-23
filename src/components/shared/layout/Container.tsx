@@ -21,7 +21,7 @@ export const Container: React.FC<ContainerProps> = ({ children, bgImage }) => {
       <main className="relative overflow-hidden">
         <div
           className={`base-background absolute w-full top-0 left-0 bg-cover bg-top 
-          ${!isSmallDevice ? (location !== '/' ? 'h-[875px]' : 'h-screen') : 'h-lg:h-[45vh] h-[50vh]'}`}
+          ${!isSmallDevice ? (location !== '/' ? 'h-[875px]' : 'h-screen') : 'h-lg:h-[45vh] xs:h-[50vh] h-[56vh]'}`}
           style={{ backgroundImage: `url(${bgImage})` }}
         />
         <img
@@ -36,7 +36,7 @@ export const Container: React.FC<ContainerProps> = ({ children, bgImage }) => {
           }`}
         />
         <Header />
-        <div className="relative sm:h-md:min-h-[calc(100vh-136px)] min-h-[calc(100vh-96px)]">{children}</div>
+        <div className="relative sm:h-md:min-h-[calc(100vh-136px)] xs:min-h-[calc(100vh-96px)] min-h-screen">{children}</div>
         {location !== '/' && <Footer />}
       </main>
     </>

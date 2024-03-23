@@ -64,7 +64,7 @@ export const HomePage = () => {
                       </p>
                     )}
 
-                    <div className="flex sm:flex-row flex-col items-center gap-4 mt-8">
+                    <div className="flex sm:flex-row flex-col items-center gap-4 sm:mt-8 h-lg:xs:mt-8 mt-12">
                       <img src={slider.medal} alt={`${slider.title} medal`} className="w-32" />
                       <h5 className="font-bold text-4xl sm:w-60 text-green-100 uppercase">
                         {t('medals_awards')}
@@ -73,7 +73,7 @@ export const HomePage = () => {
                   </div>
                 </div>
                 {isSmallDevice && (
-                  <p className="text-justify text-green-300 drop-shadow-regular h-sm:text-lg px-4 mt-10">{t(slider.description)}</p>
+                  <p className="text-justify text-green-300 drop-shadow-regular h-sm:text-lg px-4 mt-1">{t(slider.description)}</p>
                 )}
               </>
             )}
@@ -107,11 +107,11 @@ export const HomePage = () => {
       )}
 
       <button
-        className="absolute top-32 h-md:sm:top-64 h-sm:sm:top-48 right-0 2xl:h-md:left-[60rem] xl:h-md:left-[55rem] sm:left-[45rem] mx-auto w-fit"
+        className="absolute top-24 h-md:sm:top-64 h-sm:sm:top-48 xs:right-0 -right-2 2xl:h-md:left-[60rem] xl:h-md:left-[55rem] sm:left-[45rem] mx-auto w-fit"
         onClick={handleNext}
         type="button"
       >
-        <img src={RightArrow} alt="ArrowNarrowRight" className="w-20" />
+        <img src={RightArrow} alt="ArrowNarrowRight" className="sm:w-20 w-16" />
       </button>
     </div>
   );

@@ -34,7 +34,7 @@ export const LanguageFab = () => {
   }
 
   return (
-    <div className="fixed h-sm:sm:right-7 right-3 h-sm:sm:bottom-7 bottom-3 z-50 flex flex-col items-center gap-3">
+    <div className="fixed h-sm:sm:right-7 right-3 h-sm:sm:bottom-7 bottom-3 z-[52] flex flex-col items-center gap-3">
       {shouldMount && (
         <div
           style={{

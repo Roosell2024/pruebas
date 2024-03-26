@@ -5,6 +5,7 @@ import { CurveImg } from '../../../assets/imgs/shared';
 import { LanguageFab } from '..';
 import { useMediaQuery } from '@uidotdev/usehooks';
 import { mobileBreakpoint } from '../../../config/constants';
+import { AgeVerification } from '../AgeVerification';
 
 interface ContainerProps {
   children: ReactNode;
@@ -17,6 +18,7 @@ export const Container: React.FC<ContainerProps> = ({ children, bgImage }) => {
 
   return (
     <>
+      <AgeVerification />
       <LanguageFab />
       <main className="relative overflow-hidden">
         <div
@@ -36,7 +38,9 @@ export const Container: React.FC<ContainerProps> = ({ children, bgImage }) => {
           }`}
         />
         <Header />
-        <div className="relative sm:h-md:min-h-[calc(100vh-136px)] xs:min-h-[calc(100vh-96px)] min-h-screen">{children}</div>
+        <div className="relative sm:h-md:min-h-[calc(100vh-136px)] xs:min-h-[calc(100vh-96px)] min-h-screen">
+          {children}
+        </div>
         {location !== '/' && <Footer />}
       </main>
     </>

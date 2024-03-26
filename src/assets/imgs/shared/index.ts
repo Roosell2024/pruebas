@@ -7,6 +7,12 @@ import CurveImg from './curve.svg';
 import LogoWhiteES from './logo-white-es.svg';
 import LogoWhiteEN from './logo-white-en.svg';
 
+import LogoDarkES from './logo_dark_es.svg';
+import LogoDarkEN from './logo_dark_en.svg';
+
+import LogoGreenES from './logo-green-es.svg';
+import LogoGreenEN from './logo-green-en.svg';
+
 import AgeByNatureGoldES from './logo_anejado_gold_es.svg';
 import AgeByNatureGoldEN from './logo_anejado_gold_en.svg';
 import AgeByNatureWhiteES from './logo_aniejado_white_es.svg';
@@ -33,4 +39,8 @@ export {
   AgeByNatureGoldEN,
   AgeByNatureWhiteES,
   AgeByNatureWhiteEN,
+  LogoDarkES,
+  LogoDarkEN,
+  LogoGreenES,
+  LogoGreenEN,
 };

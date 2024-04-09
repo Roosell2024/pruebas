@@ -51,7 +51,7 @@ export const LanguageFab = () => {
                 onClick={handleChangeLanguage(lang)}
                 className="w-20 h-20 rounded-full hover:cursor-pointer relative shadow-lg"
                 style={{
-                  backgroundImage: `url(${resources[lang].flag})`,
+                  backgroundImage: `url('${resources[lang].flag}')`,
                   backgroundPosition: 'center',
                 }}
               />
@@ -63,7 +63,7 @@ export const LanguageFab = () => {
         className="w-20 h-20 rounded-full hover:cursor-pointer shadow-lg"
         onClick={handleOpenOptions}
         style={{
-          backgroundImage: `url(${resources[languageSelected].flag})`,
+          backgroundImage: `url('${resources[languageSelected].flag}')`,
           backgroundPosition: 'center',
         }}
       />

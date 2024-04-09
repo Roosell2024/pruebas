@@ -24,7 +24,7 @@ export const Container: React.FC<ContainerProps> = ({ children, bgImage }) => {
         <div
           className={`base-background absolute w-full top-0 left-0 bg-cover bg-top 
           ${!isSmallDevice ? (location !== '/' ? 'h-[875px]' : 'h-screen') : 'h-lg:h-[45vh] xs:h-[50vh] h-[56vh]'}`}
-          style={{ backgroundImage: `url(${bgImage})` }}
+          style={{ backgroundImage: `url('${bgImage}')` }}
         />
         <img
           src={CurveImg}

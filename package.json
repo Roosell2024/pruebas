@@ -13,9 +13,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.3",
     "@uidotdev/usehooks": "^2.4.1",
-    "i18next": "^23.10.1",
-    "i18next-browser-languagedetector": "^7.2.0",
+    "i18next": "^23.11.0",
+    "i18next-browser-languagedetector": "^7.2.1",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -25,15 +26,15 @@
     "react-use-draggable-scroll": "^0.4.7",
     "slick-carousel": "^1.8.1",
     "transition-hook": "^1.5.2",
-    "wouter": "^3.0.2"
+    "wouter": "^3.1.2"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.202",
-    "@types/react": "^18.2.64",
-    "@types/react-dom": "^18.2.21",
+    "@types/lodash": "^4.17.0",
+    "@types/react": "^18.2.75",
+    "@types/react-dom": "^18.2.24",
     "@types/react-slick": "^0.23.13",
-    "@typescript-eslint/eslint-plugin": "^7.1.1",
-    "@typescript-eslint/parser": "^7.1.1",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.18",
     "eslint": "^8.57.0",
@@ -45,8 +46,8 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
-    "sass": "^1.71.1",
-    "tailwindcss": "^3.4.1",
+    "sass": "^1.74.1",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }

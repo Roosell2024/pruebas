@@ -43,23 +43,23 @@ export const HomePage = () => {
           <p className="mb-5">{t('home.paragraph2')}</p>
           <p>{t('home.paragraph3')}</p>
         </animated.div>
-        <div className="flex flex-row">
+        <div className="flex flex-row justify-center">
           <animated.img
             style={bottle20Animation}
             src={Bottle20Anniversary}
-            className="w-40 sm:w-96 lg:w-60 h-fit -mr-10 md:-mr-28 lg:ml-28 -ml-8 h-md:ml-auto sm:ml-auto h-md:2xl:ml-40"
+            className="w-40 sm:w-96 lg:w-60 h-full sm:h-fit -mr-10 md:-mr-28 lg:ml-28 sm:ml-auto 2xl:ml-40"
             alt="Botella 30"
           />
           <animated.img
             style={bottle30Animation}
             src={Bottle30Anniversary}
-            className="w-40 sm:w-96 lg:w-60 h-fit -mr-10 md:-mr-28 mt-28 z-10"
+            className="w-40 sm:w-96 lg:w-60 h-full sm:h-fit -mr-10 md:-mr-28 mt-28 z-10"
             alt="Botella 30"
           />
           <animated.img
             style={bottle25Animation}
             src={Bottle25Anniversary}
-            className="w-36 sm:w-96 lg:w-52 h-fit"
+            className="w-36 sm:w-96 lg:w-52 h-full sm:h-fit"
             alt="Botella 30"
           />
         </div>

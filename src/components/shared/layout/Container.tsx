@@ -22,23 +22,23 @@ export const Container: React.FC<ContainerProps> = ({ children, bgImage }) => {
       <LanguageFab />
       <main className="relative overflow-hidden">
         <div
-          className={`base-background absolute w-full top-0 left-0 bg-cover bg-top 
-          ${!isSmallDevice ? (location !== '/' ? 'h-[875px]' : 'h-screen') : 'h-lg:h-[45vh] xs:h-[50vh] h-[56vh]'}`}
+          className={`base-background absolute left-0 top-0 w-full bg-cover bg-top 
+          ${!isSmallDevice ? (location !== '/' ? 'h-[875px]' : 'h-screen') : 'h-[56vh] xs:h-[50vh] h-lg:h-[45vh]'}`}
           style={{ backgroundImage: `url('${bgImage}')` }}
         />
         <img
           src={CurveImg}
           alt="curve"
-          className={`absolute top-0 left-0 w-full -mt-60 ${
+          className={`absolute left-0 top-0 -mt-60 w-full ${
             !isSmallDevice
               ? location !== '/'
-                ? 'sm:h-[1775px] h-[2100px]'
-                : 'sm:h-md:h-[1755px] sm:h-sm:h-[1645px] sm:h-[1415px] h-[2050px]'
-              : 'h-lg:h-[1210px] sm:h-[1230px] xs:h-[1190px] h-[1230px]'
+                ? 'h-[2000px] h-md:h-[2100px] h-md:sm:h-[1775px]'
+                : 'h-[2050px] h-xs:xs:h-[1120px] sm:h-[1415px] h-sm:sm:h-[1645px] h-md:sm:h-[1755px]'
+              : 'h-[1250px] h-md:h-[1230px] h-md:sm:h-[1230px] h-md:xs:h-[1190px] h-lg:h-[1210px]'
           }`}
         />
         <Header />
-        <div className="relative sm:h-md:min-h-[calc(100vh-136px)] xs:min-h-[calc(100vh-96px)] min-h-screen">
+        <div className="relative min-h-screen xs:min-h-[calc(100vh-96px)] sm:h-md:min-h-[calc(100vh-136px)]">
           {children}
         </div>
         {location !== '/' && <Footer />}

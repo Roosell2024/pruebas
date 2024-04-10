@@ -42,7 +42,7 @@ export const HomePage = () => {
 
       <div className="flex grid-cols-2 flex-col-reverse gap-4 px-5 pt-12 text-lg font-light md:px-10 lg:px-32 2xl:px-40 h-sm:md:grid">
         <animated.div
-          className="mb-16 text-justify text-green-300 h-md:sm:mb-0 h-md:md:text-white-50"
+          className="mb-16 text-justify text-green-300 h-sm:sm:mb-0 h-sm:md:text-white-50"
           style={textAnimation}
         >
           <p className="mb-5">{t('home.paragraph1')}</p>
@@ -53,7 +53,7 @@ export const HomePage = () => {
           <animated.img
             style={bottle20Animation}
             src={Bottle20Anniversary}
-            className="-mr-10 h-full w-40 h-md:sm:ml-auto h-md:sm:h-fit h-md:sm:w-96 h-md:md:-mr-28 h-md:lg:ml-28 h-md:lg:w-60 h-md:2xl:ml-40"
+            className="-mr-10 h-full w-40 h-sm:sm:ml-auto h-sm:sm:h-fit h-sm:sm:w-96 h-sm:md:-mr-28 h-sm:lg:ml-28 h-sm:lg:w-60 h-sm:2xl:ml-40"
             alt="Botella 30"
           />
           <animated.img
@@ -65,13 +65,13 @@ export const HomePage = () => {
               }),
             }}
             src={Bottle30Anniversary}
-            className="z-10 -mr-10 mt-28 h-full w-40 h-md:sm:h-fit h-md:sm:w-96 h-md:md:-mr-28 h-md:lg:w-60"
+            className="z-10 -mr-10 mt-28 h-full w-40 h-sm:sm:h-fit h-sm:sm:w-96 h-sm:md:-mr-28 h-sm:lg:w-60"
             alt="Botella 30"
           />
           <animated.img
             style={bottle25Animation}
             src={Bottle25Anniversary}
-            className="h-full w-36 h-md:sm:h-fit h-md:sm:w-96 h-md:lg:w-52"
+            className="h-full w-36 h-sm:sm:h-fit h-sm:sm:w-96 h-sm:lg:w-52"
             alt="Botella 30"
           />
         </div>

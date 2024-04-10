@@ -34,7 +34,7 @@ export const Container: React.FC<ContainerProps> = ({ children, bgImage }) => {
               ? location !== '/'
                 ? 'sm:h-[1775px] h-[2100px]'
                 : 'sm:h-md:h-[1755px] sm:h-sm:h-[1645px] sm:h-[1415px] h-[2050px]'
-              : 'h-lg:h-[1210px] h-[1230px]'
+              : 'h-lg:h-[1210px] sm:h-[1230px] xs:h-[1190px] h-[1230px]'
           }`}
         />
         <Header />

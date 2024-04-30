@@ -14,10 +14,68 @@ import {
   ron_pirina,
   smoked,
   velvety,
+  expresso_centini,
+  mai_tai,
+  old_pura_vida,
 } from '../imgs/cocktails/signatureDrinks';
 import { degrees9Punch, doctorCentenario, planters } from '../imgs/cocktails/tiki';
 
 export const signatureDrinks: CocktailItem[] = [
+  {
+    flavor: 'sweet',
+    img: expresso_centini,
+    name: 'ESPRESSO CENTINI',
+    method: 'shake_strain',
+    glass: 'chill_glass',
+    ice:'none',
+    garnish: '3_coffee_beans',
+    levelDifficulty: 'medium',
+    videoUrl: 'y4LHTByNzVM',
+    ingredients: [
+      {quantity:'30ML', name: 'Ron Centenario 9 Grados'},
+      {quantity:'30ML', name: 'Centenario Café'},
+      { quantity: DropWater, name: 'cocktails.fresh_expresso', hasIcon: true, customClass: 'w-8' },
+      { quantity: '10ML', name: 'cocktails.simple_syrup' },
+      
+    ],
+  },
+  {
+    flavor: 'fruity',
+    img: mai_tai,
+    name: 'Centenario Mai Tai',
+    method: 'shake_strain',
+    glass: 'double_rocks',
+    ice:'crushed',
+    garnish: 'mint_spring',
+    levelDifficulty: 'medium',
+    videoUrl: '1pdcsmxIHdk',
+    ingredients: [
+      {quantity:'45ML', name: 'Ron Centenario 20'},
+      {quantity:'7.5ML', name: 'London Dry Gin'},
+      {quantity:'7.5ML', name: 'cocktails.orange_liquor'},
+      {quantity:'30ML', name: 'cocktails.orgeat_syrup'},
+      {quantity:'22.5ML', name: 'cocktails.lime_juice'},
+      {quantity: '3', name: 'cocktails.dash_cocoa_bitters'},
+    ],
+  },
+  {
+    flavor: 'citrus',
+    img: old_pura_vida,
+    name: 'Old Pura Vida',
+    method: 'shake_strain',
+    glass: 'chill_coupe',
+    ice:'none',
+    garnish: 'mint_leave',
+    levelDifficulty: 'medium',
+    videoUrl: 'RkXDRltyXkQ',
+    ingredients: [
+      {quantity:'60ML', name: 'Ron Centenario 12'},
+      {quantity:'10', name: 'cocktails.mint_leave'},
+      {quantity:'15ML', name: 'cocktails.simple_syrup'},
+      { quantity: '2', name: 'cocktails.dash_of_angostura_bitters' },
+      { quantity: DropWater, customClass: 'w-8', hasIcon: true, name: 'cocktails.top_sparkling_wine' },
+    ],
+  },
   {
     flavor: 'sweet',
     img: el_yodito,

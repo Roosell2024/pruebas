@@ -10,6 +10,9 @@ import no_more from './no_more.webp';
 import ron_pirina from './ron_pirina.webp';
 import smoked from './smoked.webp';
 import velvety from './velvety.webp';
+import expresso_centini from './Espresso_Centini.webp';
+import mai_tai from './Mai_Tai.webp';
+import old_pura_vida from './Old_Pura_Vida.webp';
 
 export {
   cafe_tonic,
@@ -24,4 +27,7 @@ export {
   ron_pirina,
   smoked,
   velvety,
+  expresso_centini,
+  mai_tai,
+ old_pura_vida,
 };

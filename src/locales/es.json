@@ -74,7 +74,7 @@
             "aging": "Proceso de añejamiento continuo en barriles"
         },
         "1985": {
-            "description": "Ron Centenario 1985 Lowlands, es una edición especial elaborada en Costa Rica.Es una mezcla de rones ligeros y pesados envejecidos en barricas de roble blanco americano que alguna vez tuvieron whisky escocés. Una selección especial de barricas de las Tierras Bajas, conservadas en un bosque de Costa Rica, para crear esta mezcla única de roble dulce, café y frutos secos",
+            "description": "Ron Centenario 1985 Lowlands, es una edición especial elaborada en Costa Rica.Es una mezcla de rones ligeros y pesados añejados en barricas de roble blanco americano que alguna vez tuvieron whisky escocés. Una selección especial de barricas de las Tierras Bajas, conservadas en un bosque de Costa Rica, para crear esta mezcla única de roble dulce, café y frutos secos",
             "nosing": "Delicadas notas de Café tostado, vainilla, madera y frutos secos.",
             "flavor": "Gran cremosidad en la cuál sobresalen las notas a Café tostado y frutos secos, con un final de vainilla y roble.",
             "aging": "Sistema Tradicional"
@@ -94,7 +94,7 @@
             "2004": "En el horizonte del ron, todavía teníamos mucho que conquistar. Por eso creamos Centenario Blanco, Centenario Añejo Especial 7 y Conmemorativo 9.",
             "2007": "Nuestras primeras exportaciones fueron de 2 de los productos más icónicos de nuestra familia: Ron Centenario Fundación 20 y Ron Centenario Añejo Especial 7. Ambos trajeron el sabor de Costa Rica a Estados Unidos y Alemania.",
             "2011": "Nacen nuestros mayores productos: Ron Centenario 30 Edición Limitada y la joya de nuestros rones: Centenario Real en 2015. Ganamos los premios al mejor ron del mundo y al mejor destilado del mundo.",
-            "2017": "Queríamos mostrarle al mundo cómo se elabora el mejor ron de la mejor manera. Por eso decidimos renovar nuestra imagen: cambiamos las botellas, el logo y las etiquetas.\nNuestras campañas de sustentabilidad y crecimiento social nos han posicionado como una de las marcas líderes en proyectos ambientales y sociales.\nNace nuestro sello y razón de ser: Envejecido por la naturaleza, mostrando al mundo cómo las notas de cata de nuestros rones cobran vida con la ayuda de la naturaleza."
+            "2017": "Queríamos mostrarle al mundo cómo se elabora el mejor ron de la mejor manera. Por eso decidimos renovar nuestra imagen: cambiamos las botellas, el logo y las etiquetas.\nNuestras campañas de sustentabilidad y crecimiento social nos han posicionado como una de las marcas líderes en proyectos ambientales y sociales.\nNace nuestro sello y razón de ser: Añejado por la naturaleza, mostrando al mundo cómo las notas de cata de nuestros rones cobran vida con la ayuda de la naturaleza."
         }
     },
     "our_rums": {
@@ -104,7 +104,7 @@
         "aging": "Añejamiento",
         "special_edition": "Edición Especial",
         "liquors": "Licores",
-        "introduction": "Ron Centenario está concebido desde el alma misma de la madre tierra. Se elabora con agua pura y cristalina de montaña y se mezcla en plena selva tropical de Costa Rica, en barricas de roble blanco americano que antiguamente contenían whisky escocés. Conservado y envejecido en un lugar estratégico, rodeado de ríos y naturaleza para brindar el equilibrio perfecto entre frescura y humedad. Creado en armonía con nuestra biodiversidad, está protegido por la fauna local y perfeccionado en una bodega de ron única. Por todas estas razones podemos decir con orgullo que somos el Único Ron en Costa Rica “Envejecido por la Naturaleza”."
+        "introduction": "Ron Centenario está concebido desde el alma misma de la madre tierra. Se elabora con agua pura y cristalina de montaña y se mezcla en plena selva tropical de Costa Rica, en barricas de roble blanco americano que antiguamente contenían whisky escocés. Conservado y añejados en un lugar estratégico, rodeado de ríos y naturaleza para brindar el equilibrio perfecto entre frescura y humedad. Creado en armonía con nuestra biodiversidad, está protegido por la fauna local y perfeccionado en una bodega de ron única. Por todas estas razones podemos decir con orgullo que somos el Único Ron en Costa Rica “Añejado por la Naturaleza”."
     },
     "cocktails": {
         "introduction": "Desde los más elaborados cócteles hasta las mezclas que hacemos en casa para disfrutar con amigos y seres queridos, Ron Centenario es tu compañía perfecta para disfrutar del mundo de la coctelería.\nRecorre con nosotros por el mundo de la coctelería Tiki, los grandes clásicos reinventados a nuestro estilo y los cócteles Añejados por la Naturaleza.",
@@ -150,6 +150,9 @@
         "orange_peel": "Cáscara de Naranja",
         "dashes_orange_bitters": "Golpes de Bitter de Naranja",
         "fill_tonic_water": "Rellenar con agua tónica",
+        "fresh_expresso": "Expresso Fresco",
+        "orange_liquor": "Licor de Naranja",
+        "orgeat_syrup": "Orgeat Syrup",
         "muddle_shake_strain": "Machacado y Agitado y Colado",
         "double_rocks": "Vaso Rocks Doble",
         "crushed": "Picado",
@@ -179,6 +182,7 @@
         "kiwi_slice": "Rodaja de Kiwi",
         "thin_slices_kiwi": "Rodajas finas de Kiwi",
         "fill_sparkling_water": "Rellenar con agua gasificada",
+        "top_sparkling_wine": "Rellenar con vino espumante (después de servir el cóctel)",
         "build_smoked": "Directo y Ahumado (Top Smoker)",
         "big_rock": "cubo grande",
         "rich_demerara_syrup": "Sirope Demerara Enriquecido (2:1)",
@@ -203,6 +207,7 @@
         "swizzle_stick": "Swizzle Stick",
         "tiki_glass_highball_glass": "Vaso Tiki o Vaso Highball",
         "mint_spring": "Brote de Hierba Buena",
+         "mint_leave": "Hoja de Hierba Buena",
         "centenario_homemade_allspice_dram": "Allspice Dram",
         "passion_fruit_syrup": "Sirope de Maracuyá",
         "demerara_syrup": "Sirope de Azúcar Moreno",

@@ -44,9 +44,9 @@ const data = {
 
 export const ScotlandMapSVG = () => {
   const { t } = useTranslation();
-  const [onOff, setOnOff] = useState(true);
+  const [onOff, setOnOff] = useState(false);
   const { stage, shouldMount } = useTransition(onOff, 300);
-  const [nameSelected, setNameSelected] = useState('highlands');
+  const [nameSelected, setNameSelected] = useState('');
 
   const handleMouseEnter = (name: string) => () => {
     setNameSelected(name);

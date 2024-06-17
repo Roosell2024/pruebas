@@ -4,12 +4,12 @@ import { AgedByNatureLogo, ScotlandMap, Timeline } from '../components';
 export const OurHistory = () => {
   const { t } = useTranslation();
   return (
-    <section className="lg:px-20 relative">
-      <div className="absolute sm:top-0 -top-5 left-0 right-0 mx-auto text-center">
-        <AgedByNatureLogo className="sm:w-80 sm:h-80 w-40 inline-block" />
+    <section className="relative lg:px-20">
+      <div className="absolute -top-5 left-0 right-0 mx-auto text-center sm:top-0">
+        <AgedByNatureLogo className="inline-block w-40 sm:h-80 sm:w-80" />
       </div>
-      <div className="sm:pt-32 pt-28 sm:px-36 px-16 sm:mb-44 mb-20">
-        <h1 className="uppercase font-bold sm:text-6xl text-5xl sm:w-52 text-gold sm:text-left text-center">
+      <div className="mb-20 px-16 pt-28 sm:mb-60 sm:px-36 sm:pt-32 h-sm:sm:mb-44">
+        <h1 className="text-center text-5xl font-bold uppercase text-gold sm:w-52 sm:text-left sm:text-6xl">
           {t('menu.our_history')}
         </h1>
       </div>

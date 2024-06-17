@@ -62,7 +62,7 @@ export const Cocktails = () => {
         <h1 className="uppercase font-extrabold h-lg:xs:text-6xl text-5xl text-gold text-left sm:px-0 px-10">{t('menu.cocktails')}</h1>
       </div>
 
-      <div className="relative sm:my-56 -mt-44 sm:text-center text-right">
+      <div className="relative h-sm:sm:my-56 sm:my-72 h-sm:-mt-44 sm:text-center text-right">
         <img src={leafMultiColor} alt="Leaf" className="top-0 left-0 absolute sm:block hidden" />
         <img src={orangeComplete} alt="orange" className="-top-44 right-32 absolute rotate-90 w-52 opacity-60 sm:block hidden" />
         <img src={botellaCoctel} alt="Vaso de coctel con botella" className="sm:absolute sm:-top-56 sm:-right-20 sm:w-[400px] w-48 inline-block" />

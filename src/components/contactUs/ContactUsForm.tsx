@@ -18,7 +18,7 @@ export const ContactUsForm = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { stage, shouldMount } = useTransition(alert.show, 100);
   const { t } = useTranslation();
-    const isSmallDevice = useMediaQuery(mobileBreakpoint);
+  const isSmallDevice = useMediaQuery(mobileBreakpoint);
 
   const handleChangeInput = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
@@ -51,21 +51,23 @@ export const ContactUsForm = () => {
     }
   };
   return (
-    <div className={`${isSmallDevice ? 'mt-20' : 'mt-72'}  xl:px-24 px-10 sm:grid grid-cols-2 gap-10`}>
-      <div className="xl:h-md:w-114 lg:h-sm:w-96 lg:w-80 sm:mb-0 mb-10">
-        <h1 className="uppercase text-5xl font-extrabold sm:text-green-300 text-gold">{t('contact_us.title')}</h1>
-        <p className="pt-5 text-green-300 text-lg font-normal text-justify">{t('contact_us.form_text')}</p>
+    <div
+      className={`${isSmallDevice ? 'mt-20' : 'mt-96 h-sm:mt-72'}  relative grid-cols-2 gap-10 px-10 sm:grid xl:px-24`}
+    >
+      <div className="mb-10 sm:mb-0 lg:w-80 lg:h-sm:w-96 xl:h-md:w-114">
+        <h1 className="text-5xl font-extrabold uppercase text-gold sm:text-green-300">{t('contact_us.title')}</h1>
+        <p className="pt-5 text-justify text-lg font-normal text-green-300">{t('contact_us.form_text')}</p>
       </div>
 
       {isLoading && <Loading />}
 
-      <form onSubmit={handleSubmit} className="xl:w-144 lg:w-96 relative">
+      <form onSubmit={handleSubmit} className="relative lg:w-96 xl:w-144">
         <div className="mb-4">
-          <label className="block text-green-300 font-bold mb-2 uppercase" htmlFor="name">
+          <label className="mb-2 block font-bold uppercase text-green-300" htmlFor="name">
             {t('contact_us.full_name')}
           </label>
           <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-green-300 leading-tight focus:outline-none focus:shadow-outline"
+            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-green-300 shadow focus:outline-none"
             id="name"
             name="name"
             type="text"
@@ -74,11 +76,11 @@ export const ContactUsForm = () => {
           />
         </div>
         <div className="mb-4">
-          <label className="block text-green-300 font-bold mb-2 uppercase" htmlFor="email">
+          <label className="mb-2 block font-bold uppercase text-green-300" htmlFor="email">
             {t('contact_us.email')}
           </label>
           <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-green-300 leading-tight focus:outline-none focus:shadow-outline"
+            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-green-300 shadow focus:outline-none"
             id="email"
             type="email"
             name="email"
@@ -87,11 +89,11 @@ export const ContactUsForm = () => {
           />
         </div>
         <div className="mb-4">
-          <label className="block text-green-300 font-bold mb-2 uppercase" htmlFor="message">
+          <label className="mb-2 block font-bold uppercase text-green-300" htmlFor="message">
             {t('contact_us.message')}
           </label>
           <textarea
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-green-300 leading-tight focus:outline-none focus:shadow-outline"
+            className="focus:shadow-outline w-full appearance-none rounded border px-3 py-2 leading-tight text-green-300 shadow focus:outline-none"
             id="message"
             name="message"
             rows={6}
@@ -99,16 +101,16 @@ export const ContactUsForm = () => {
             onChange={handleChangeTextArea}
           />
         </div>
-        <div className="flex items-center sm:justify-end justify-center gap-10">
+        <div className="flex items-center justify-center gap-10 sm:justify-end">
           <button
-            className="bg-white-50 hover:bg-green-300 w-36 hover:text-white-50 text-green-300 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border border-green-300 uppercase"
+            className="focus:shadow-outline w-36 rounded border border-green-300 bg-white-50 px-4 py-2 font-bold uppercase text-green-300 hover:bg-green-300 hover:text-white-50 focus:outline-none"
             type="button"
             onClick={() => setFormData({ name: '', email: '', message: '' })}
           >
             {t('contact_us.clean')}
           </button>
           <button
-            className="bg-green-300 w-36 hover:bg-green-200 text-white-50 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline uppercase"
+            className="focus:shadow-outline w-36 rounded bg-green-300 px-4 py-2 font-bold uppercase text-white-50 hover:bg-green-200 focus:outline-none"
             type="submit"
           >
             {t('contact_us.send')}
@@ -117,15 +119,15 @@ export const ContactUsForm = () => {
 
         {shouldMount && (
           <div
-            className={`text-white-50 px-6 py-4 border-0 rounded relative my-4 ${alertBgColor[alert.type]}`}
+            className={`relative my-4 rounded border-0 px-6 py-4 text-white-50 ${alertBgColor[alert.type]}`}
             style={{
               transition: '.3s',
               opacity: stage === 'enter' ? 1 : 0,
             }}
           >
-            <span className="inline-block align-middle mr-8">{alert.message}</span>
+            <span className="mr-8 inline-block align-middle">{alert.message}</span>
             <button
-              className="absolute bg-transparent text-2xl font-semibold leading-none right-0 top-0 mt-4 mr-6 outline-none focus:outline-none"
+              className="bg-transparent absolute right-0 top-0 mr-6 mt-4 text-2xl font-semibold leading-none outline-none focus:outline-none"
               onClick={() => setAlert({ show: false, message: '', type: 'error' })}
               type="button"
             >

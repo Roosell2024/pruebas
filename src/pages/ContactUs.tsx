@@ -23,7 +23,7 @@ export const ContactUs = () => {
       </div>
 
       <img src={LeafsIconC} alt="Leafs" className="absolute sm:right-40 top-32 sm:block hidden" />
-      <img src={OrangeIcon} alt="Orange icon" className="rotate-12 absolute -left-14 top-128 sm:block hidden" />
+      <img src={OrangeIcon} alt="Orange icon" className="rotate-12 absolute -left-14 top-128 sm:block hidden z-0" />
       <img
         src={LeafIcon}
         alt="Leaf"

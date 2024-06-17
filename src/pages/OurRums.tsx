@@ -22,29 +22,31 @@ import {
 export const OurRums = () => {
   const { t } = useTranslation();
   return (
-    <section className="lg:px-44 relative">
-      <div className="absolute sm:top-0 -top-5 sm:left-0 left-5 sm:right-0 mx-auto text-center">
-        <AgedByNatureLogo className="sm:w-80 sm:h-80 w-40 inline-block" />
+    <section className="relative lg:px-44">
+      <div className="absolute -top-5 left-5 mx-auto text-center sm:left-0 sm:right-0 sm:top-0">
+        <AgedByNatureLogo className="inline-block w-40 sm:h-80 sm:w-80" />
       </div>
-      <div className="sm:pt-32 pt-28 2xl:px-36 px-5 sm:mb-44 sm:text-left">
-        <h1 className="uppercase font-bold text-6xl w-52 text-gold inline-block">{t('menu.our_rums')}</h1>
+      <div className="px-5 pt-28 sm:mb-44 sm:pt-32 sm:text-left 2xl:px-36">
+        <h1 className="inline-block w-52 text-6xl font-bold uppercase text-gold">{t('menu.our_rums')}</h1>
       </div>
 
-      <img src={OrangeIcon} alt="orange icon" className="absolute top-72 right-44 sm:block hidden" />
-      <img src={HojaIcon} alt="Leaf" className="absolute top-[38rem] 2xl:left-52 left-20 sm:block hidden" />
+      <img src={OrangeIcon} alt="orange icon" className="absolute right-44 top-80 hidden sm:block xl:top-72" />
+      <img src={HojaIcon} alt="Leaf" className="absolute left-20 top-[38rem] hidden sm:block 2xl:left-52" />
 
-      <div className="sm:grid grid-cols-2 items-center sm:m-0 xs:-mt-14">
-        <div className="flex sm:justify-end justify-center">
-          <img src={Bottles} alt="Bottles" className="z-10 sm:w-[500px] w-80" />
+      <div className="grid-cols-2 items-center sm:m-0 sm:grid md:mt-80 h-sm:xl:-mt-14">
+        <div className="flex justify-center sm:justify-end">
+          <img src={Bottles} alt="Bottles" className="z-10 w-80 sm:w-[500px]" />
         </div>
-        <p className="text-green-200 sm:w-144 text-xl sm:px-0 px-10 sm:mt-0 mt-4 sm:text-left text-justify">{t('our_rums.introduction')}</p>
+        <p className="mt-4 px-10 text-justify text-xl text-green-200 sm:mt-0 sm:px-0 sm:text-left md:w-144">
+          {t('our_rums.introduction')}
+        </p>
       </div>
 
-      <div className="xl:px-28 mt-40">
+      <div className="mt-40 xl:px-28">
         <BarrelAgingProcess />
       </div>
 
-      <div className="mt-40 sm:px-40 px-10 text-justify text-xl text-green-300">
+      <div className="mt-40 px-10 text-justify text-xl text-green-300 sm:px-40">
         <p className="font-medium">{t('continuos_aging_system.title')}</p>
         <p className="mb-10">{t('continuos_aging_system.paragraph1')}</p>
         <p className="mb-10">{t('continuos_aging_system.paragraph2')}</p>
@@ -53,51 +55,55 @@ export const OurRums = () => {
         <p className="mb-10">{t('continuos_aging_system.paragraph5')}</p>
       </div>
 
-      <div className="2xl:px-20 my-32">
+      <div className="my-32 2xl:px-20">
         <RumsSliders rums={secondSliderRums} background={bgColibri} />
       </div>
 
-      <div className="grid grid-cols-4 gap-4 2xl:px-44 px-5 pb-44 items-center relative text-green-300 text-xl uppercase">
-        <div className="horizontal-line border-green-100 border-b-2 border-dashed 2xl:w-1/2 w-2/3 absolute top-[80%] left-0 right-0 my-0 mx-auto flex justify-between items-center">
-          <div className="border-green-100 border-x-2 border-dashed h-12 w-full before:h-9 before:w-9 before:border-green-100 before:border-2 before:absolute before:-left-[17px] before:rounded-full before:-top-9 after:h-9 after:w-9 after:border-green-100 after:border-2 after:absolute after:-right-[17px] after:rounded-full after:-top-9" />
-          <div className="h-12 border-green-100 border-l-2 absolute -bottom-[48px] sm:left-[25%] left-5 w-0 border-dashed before:h-4 before:w-4 before:bg-green-100 before:absolute before:-bottom-4 before:-left-[9px] before:rounded-full" />
+      <div className="relative grid grid-cols-4 items-center gap-4 px-5 pb-44 text-xl uppercase text-green-300 2xl:px-44">
+        <div className="horizontal-line absolute left-0 right-0 top-[80%] mx-auto my-0 flex w-2/3 items-center justify-between border-b-2 border-dashed border-green-100 2xl:w-1/2">
+          <div className="h-12 w-full border-x-2 border-dashed border-green-100 before:absolute before:-left-[17px] before:-top-9 before:h-9 before:w-9 before:rounded-full before:border-2 before:border-green-100 after:absolute after:-right-[17px] after:-top-9 after:h-9 after:w-9 after:rounded-full after:border-2 after:border-green-100" />
+          <div className="absolute -bottom-[48px] left-5 h-12 w-0 border-l-2 border-dashed border-green-100 before:absolute before:-bottom-4 before:-left-[9px] before:h-4 before:w-4 before:rounded-full before:bg-green-100 sm:left-[25%]" />
         </div>
 
-        <div className="font-bold uppercase sm:order-1 sm:col-span-1 col-span-2">
+        <div className="col-span-2 font-bold uppercase sm:order-1 sm:col-span-1">
           <h6>{t('traditional_aging_system.alcohol')}</h6>
           <div className="text-right">
-            <img src={Barril} alt="barrel" className="mix-blend-darken w-60  inline-block" />
+            <img src={Barril} alt="barrel" className="inline-block w-60  mix-blend-darken" />
           </div>
           <h6>{t('traditional_aging_system.light_rum')}</h6>
         </div>
 
-        <div className="sm:col-span-2 sm:order-2 order-first col-span-4">
-          <h2 className="font-bold text-5xl uppercase sm:mb-16 mb-5 text-gold sm:text-left text-center">
+        <div className="order-first col-span-4 sm:order-2 sm:col-span-2">
+          <h2 className="mb-5 text-center text-5xl font-bold uppercase text-gold sm:mb-16 sm:text-left">
             {t('traditional_aging_system.title')}
           </h2>
-          <h6 className="uppercase sm:font-bold sm:m-0 ml-10 sm:list-none list-item">{t('traditional_aging_system.age_white_oak')}</h6>
-          <h6 className="uppercase sm:font-bold sm:mt-5 sm:m-0 ml-10 sm:list-none list-item">{t('traditional_aging_system.first_use')}</h6>
+          <h6 className="ml-10 list-item uppercase sm:m-0 sm:list-none sm:font-bold">
+            {t('traditional_aging_system.age_white_oak')}
+          </h6>
+          <h6 className="ml-10 list-item uppercase sm:m-0 sm:mt-5 sm:list-none sm:font-bold">
+            {t('traditional_aging_system.first_use')}
+          </h6>
         </div>
 
-        <div className="font-bold uppercase sm:order-3 sm:col-span-1 col-span-2">
+        <div className="col-span-2 font-bold uppercase sm:order-3 sm:col-span-1">
           <h6 className="text-right">{t('traditional_aging_system.raw_rum')}</h6>
-          <img src={Barril} alt="barrel" className="mix-blend-darken w-60" />
+          <img src={Barril} alt="barrel" className="w-60 mix-blend-darken" />
           <h6 className="text-right">{t('traditional_aging_system.heavy_rum')}</h6>
         </div>
       </div>
 
-      <div className="grid grid-cols-2 items-center sm:gap-44 gap-20 sm:pt-12 sm:px-0 px-5 relative text-green-300 text-xl">
-        <div className="sm:flex items-end justify-end">
-          <h6 className="font-bold w-40">{t('traditional_aging_system.demineralized_water')}</h6>
+      <div className="relative grid grid-cols-2 items-center gap-20 px-5 text-xl text-green-300 sm:gap-44 sm:px-0 sm:pt-12">
+        <div className="items-end justify-end sm:flex">
+          <h6 className="w-40 font-bold">{t('traditional_aging_system.demineralized_water')}</h6>
           <div className="text-center">
             <img src={Blending} alt="blending" className="w-60" />
             <h6 className="font-bold uppercase">{t('traditional_aging_system.blending')}</h6>
           </div>
         </div>
 
-        <div className="absolute left-0 right-0 mx-auto my-0 border-green-100 border-b-2 sm:w-32 w-8 border-dashed before:h-9 before:w-9 before:border-green-100 before:border-2 before:absolute before:rounded-full before:-left-9 before:-top-4 after:h-4 after:w-4 after:bg-green-100 after:absolute after:rounded-full after:-right-4 after:-top-2" />
+        <div className="absolute left-0 right-0 mx-auto my-0 w-8 border-b-2 border-dashed border-green-100 before:absolute before:-left-9 before:-top-4 before:h-9 before:w-9 before:rounded-full before:border-2 before:border-green-100 after:absolute after:-right-4 after:-top-2 after:h-4 after:w-4 after:rounded-full after:bg-green-100 sm:w-32" />
 
-        <div className="flex items-end sm:pt-0 pt-13">
+        <div className="flex items-end pt-13 sm:pt-0">
           <div className="text-center">
             <img src={Bottling} alt="Bottling" className="w-60" />
             <h6 className="font-bold uppercase">{t('traditional_aging_system.bottling')}</h6>
@@ -105,7 +111,7 @@ export const OurRums = () => {
         </div>
       </div>
 
-      <div className="sm:mt-40 mt-20 sm:px-40 px-10 text-justify text-xl text-green-300">
+      <div className="mt-20 px-10 text-justify text-xl text-green-300 sm:mt-40 sm:px-40">
         <p className="font-medium">{t('traditional_aging_system.title')}</p>
         <p className="mb-10">{t('traditional_aging_system.paragraph1')}</p>
         <p className="mb-10">{t('traditional_aging_system.paragraph2')}</p>
@@ -117,11 +123,11 @@ export const OurRums = () => {
         <RumsSliders rums={firstSliderRums} background={bgUmbrellaLEaf} />
       </div>
 
-      <div className="2xl:px-20 my-32">
+      <div className="my-32 2xl:px-20">
         <RumsSliders name={t('our_rums.special_edition')} rums={specialEditionSliderRums} background={bgStarLeaf} />
       </div>
 
-      <div className="2xl:px-20 my-32">
+      <div className="my-32 2xl:px-20">
         <RumsSliders name={t('our_rums.liquors')} rums={liquorsSliderRums} background={bgCoffee} />
       </div>
     </section>

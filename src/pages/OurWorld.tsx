@@ -8,12 +8,14 @@ import { WorldOfMedals } from '../components/ourWorld/WorldOfMedals';
 export const OurWorld = () => {
   const { t } = useTranslation();
   return (
-    <section className="lg:px-20 relative">
-      <div className="absolute md:left-0 md:right-0 md:-top-60 top-10 md:transform-50 md:ml-0 ml-4 mx-auto text-center">
-        <AgedByNatureLogo className="sm:w-80 sm:h-80 w-52 inline-block" />
+    <section className="relative lg:px-20">
+      <div className="md:transform-50 absolute top-10 mx-auto ml-4 text-center md:-top-60 md:left-0 md:right-0 md:ml-0">
+        <AgedByNatureLogo className="inline-block w-52 sm:h-80 sm:w-80" />
       </div>
-      <div className="sm:px-36 pt-48 md:pt-28 md:px-5 xs:px-12 sm:mb-44 md:text-left text-center md:mt-64">
-        <h1 className="uppercase font-bold md:text-6xl text-5xl md:w-96 w-80 text-gold inline-block">{t('menu.our_world')}</h1>
+      <div className="pt-48 text-center sm:mb-44 sm:px-36 md:mt-64 md:px-5 md:text-left xs:px-12 h-sm:md:pt-28">
+        <h1 className="inline-block w-80 text-5xl font-bold uppercase text-gold md:w-96 md:text-6xl">
+          {t('menu.our_world')}
+        </h1>
       </div>
 
       {/* Medals */}

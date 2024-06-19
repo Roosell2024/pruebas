@@ -8,7 +8,7 @@ const App = () => {
       {routes.map(({ Component, ...rest }) => (
         <Route
           path={rest.path}
-          component={() => <Container bgImage={rest.bgImage}>{Component}</Container>}
+          component={() => <Container>{Component}</Container>}
           key={rest.name}
         />
       ))}

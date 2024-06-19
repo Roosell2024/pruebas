@@ -1,7 +1,8 @@
 import { animated, useSpring } from '@react-spring/web';
-import { LeafsIcon } from '../assets/imgs/shared';
+import { CurveImg, LeafsIcon } from '../assets/imgs/shared';
 import { useTranslation } from 'react-i18next';
 import { Bottle20Anniversary, Bottle25Anniversary, Bottle30Anniversary } from '../assets/imgs/ourRums/bottleRums';
+import { BgHome } from '../assets/imgs/home';
 
 export const HomePage = () => {
   const { t } = useTranslation();
@@ -34,13 +35,19 @@ export const HomePage = () => {
 
   return (
     <div className="relative">
+      <div
+        className={`-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-screen`}
+        style={{ backgroundImage: `url('${BgHome}')` }}
+      >
+        <img src={CurveImg} alt="curve" className="-mb-5 md:-mb-20" />
+      </div>
       <img
         src={LeafsIcon}
         alt="leafs"
         className="absolute top-52 w-96 opacity-20 sm:right-1/2 2xl:right-[40%] h-xs:sm:top-80 h-lg:sm:top-114"
       />
 
-      <div className="flex grid-cols-2 flex-col-reverse gap-4 px-5 pt-12 text-lg font-light md:px-10 2xl:px-40 h-xs:lg:grid h-md:lg:px-32">
+      <div className="-mt-[320px] flex grid-cols-2 flex-col-reverse gap-4 px-5 pt-12 text-lg font-light md:-mt-[calc(100vh-96px)] md:px-10 2xl:px-40 h-xs:lg:grid h-md:lg:px-32">
         <animated.div
           className="mb-16 text-justify text-green-300 h-xs:lg:mb-0 h-xs:lg:text-white-50"
           style={textAnimation}

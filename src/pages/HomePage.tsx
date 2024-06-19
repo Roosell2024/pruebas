@@ -39,7 +39,7 @@ export const HomePage = () => {
         className={`-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-screen`}
         style={{ backgroundImage: `url('${BgHome}')` }}
       >
-        <img src={CurveImg} alt="curve" className="-mb-5 md:-mb-20" />
+        <img src={CurveImg} alt="curve" className="-mb-5 h-sm:md:-mb-20 md:-mb-52" />
       </div>
       <img
         src={LeafsIcon}

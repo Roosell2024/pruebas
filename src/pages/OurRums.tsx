@@ -26,13 +26,13 @@ export const OurRums = () => {
   return (
     <>
       <div
-        className={`-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-screen`}
+        className="-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-[900px] 2xl:h-[1000px]"
         style={{ backgroundImage: `url('${BGOurRums}')` }}
       >
         <img src={CurveImg} alt="curve" className="-mb-5 md:-mb-16" />
       </div>
 
-      <section className="relative -mt-[320px] xl:-mt-[calc(100vh-96px)] md:-mt-[calc(100vh-150px)] lg:px-44">
+      <section className="relative -mt-[320px] md:-mt-[calc(900px-100px)] lg:px-44 2xl:-mt-[calc(1000px-150px)]">
         <div className="absolute -top-5 left-5 mx-auto text-center sm:left-0 sm:right-0 sm:top-0">
           <AgedByNatureLogo className="inline-block w-40 sm:h-80 sm:w-80" />
         </div>
@@ -43,7 +43,7 @@ export const OurRums = () => {
         <img src={OrangeIcon} alt="orange icon" className="absolute right-44 top-80 hidden sm:block xl:top-72" />
         <img src={HojaIcon} alt="Leaf" className="absolute left-20 top-[38rem] hidden sm:block 2xl:left-52" />
 
-        <div className="grid-cols-2 items-center sm:m-0 sm:grid md:mt-80 h-sm:xl:-mt-14">
+        <div className="grid-cols-2 items-center sm:m-0 sm:grid md:mt-80">
           <div className="flex justify-center sm:justify-end">
             <img src={Bottles} alt="Bottles" className="z-10 w-80 sm:w-[500px]" />
           </div>

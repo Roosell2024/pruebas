@@ -52,13 +52,13 @@ export const Cocktails = () => {
   return (
     <>
       <div
-        className={`-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-screen`}
+        className="-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-[900px] 2xl:h-[1000px]"
         style={{ backgroundImage: `url('${BGCocktails}')` }}
       >
         <img src={CurveImg} alt="curve" className="-mb-5 md:-mb-16" />
       </div>
 
-      <section className="relative -mt-[320px] sm:px-10 md:-mt-[calc(100vh-150px)] xl:-mt-[calc(100vh-96px)] xl:px-44">
+      <section className="relative -mt-[320px] sm:px-10 md:-mt-[calc(900px-150px)] xl:px-44 2xl:-mt-[calc(1000px-150px)]">
         <div className="absolute left-10 sm:left-114 sm:top-10">
           <AgedByNatureLogo className="w-44 sm:w-80" />
         </div>

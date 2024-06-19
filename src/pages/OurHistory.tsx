@@ -8,12 +8,12 @@ export const OurHistory = () => {
   return (
     <>
       <div
-        className={`-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-screen`}
+        className="-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-[900px] 2xl:h-[1000px]"
         style={{ backgroundImage: `url('${BgOurHistory}')` }}
       >
         <img src={CurveImg} alt="curve" className="-mb-5 md:-mb-20" />
       </div>
-      <section className="relative -mt-[320px] md:-mt-[calc(100vh-96px)] lg:px-20">
+      <section className="relative -mt-[320px] md:-mt-[calc(900px-100px)] lg:px-20 2xl:-mt-[calc(1000px-150px)]">
         <div className="absolute -top-5 left-0 right-0 mx-auto text-center sm:top-0">
           <AgedByNatureLogo className="inline-block w-40 sm:h-80 sm:w-80" />
         </div>

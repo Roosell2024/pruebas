@@ -19,13 +19,13 @@ export const ContactUs = () => {
   return (
     <>
       <div
-        className={`-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-screen`}
+        className="-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top 2xl:h-[1000px] md:h-[900px]"
         style={{ backgroundImage: `url('${BGContactUs}')` }}
       >
         <img src={CurveImg} alt="curve" className="-mb-5" />
       </div>
 
-      <section className="relative -mt-[320px] md:-mt-[calc(100vh-150px)] lg:px-28 xl:-mt-[calc(100vh-96px)] xl:px-36 2xl:px-52">
+      <section className="relative -mt-[320px] md:-mt-[calc(900px-100px)] lg:px-28 2xl:-mt-[calc(1000px-150px)] xl:px-36 2xl:px-52">
         <div className={`transform-50 absolute left-1/2 top-24 md:top-36`}>
           <AgedByNatureLogo className="h-96 w-96" />
         </div>

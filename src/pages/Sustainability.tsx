@@ -19,13 +19,13 @@ export const Sustainability = () => {
   return (
     <>
       <div
-        className={`-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-screen`}
+        className="-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-[900px] 2xl:h-[1000px]"
         style={{ backgroundImage: `url('${BGSotenibilidad}')` }}
       >
         <img src={CurveImg} alt="curve" className="-mb-5 md:-mb-16" />
       </div>
 
-      <section className="relative -mt-[320px] md:-mt-[calc(100vh-96px)] lg:px-44">
+      <section className="relative -mt-[320px] md:-mt-[calc(900px-100px)] lg:px-44 2xl:-mt-[calc(1000px-150px)]">
         <div className={`${isSmallDevice ? 'mt-20' : ' mt-32'}`}>
           <h1
             className={`text-center font-bold  uppercase text-gold sm:text-left ${!isSmallDevice ? 'text-6xl' : 'text-5xl'} `}

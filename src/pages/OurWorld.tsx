@@ -15,9 +15,9 @@ export const OurWorld = () => {
         className="-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-[900px] 2xl:h-[1000px]"
         style={{ backgroundImage: `url('${BGOWorld}')` }}
       >
-        <img src={CurveImg} alt="curve" className="-mb-5 md:-mb-16" />
+        <img src={CurveImg} alt="curve" className="-mb-5" />
       </div>
-      <section className="relative -mt-[320px] md:-mt-[calc(900px-100px)] lg:px-20 2xl:-mt-[calc(1000px-150px)]">
+      <section className="relative -mt-[320px] sm:px-10 md:-mt-[calc(900px-100px)] lg:px-20 xl:px-32 2xl:-mt-[calc(1000px-150px)]">
         <div className="md:transform-50 absolute top-10 mx-auto ml-4 text-center md:-top-60 md:left-0 md:right-0 md:ml-0">
           <AgedByNatureLogo className="inline-block w-52 sm:h-80 sm:w-80" />
         </div>

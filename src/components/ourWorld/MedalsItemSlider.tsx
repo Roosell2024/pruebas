@@ -38,7 +38,7 @@ export const MedalsItemSlider = ({ rumMedals, lastOne }: Props) => {
   };
 
   return (
-    <div className={`relative flex flex-row justify-start w-full min-w-max md:pb-0 pb-10 ${lastOne ? 'md:h-md:mr-96 mr-0' : ''}`}>
+    <div className={`relative flex flex-row justify-start w-full min-w-max md:pb-0 pb-10 ${lastOne ? 'sm:mr-96 mr-0' : ''}`}>
       <img
         src={rumMedals.img}
         alt={rumMedals.bottle}

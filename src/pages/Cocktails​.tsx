@@ -55,7 +55,7 @@ export const Cocktails = () => {
         className="-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-[900px] 2xl:h-[1000px]"
         style={{ backgroundImage: `url('${BGCocktails}')` }}
       >
-        <img src={CurveImg} alt="curve" className="-mb-5 md:-mb-16" />
+        <img src={CurveImg} alt="curve" className="-mb-5" />
       </div>
 
       <section className="relative -mt-[320px] sm:px-10 md:-mt-[calc(900px-150px)] xl:px-44 2xl:-mt-[calc(1000px-150px)]">

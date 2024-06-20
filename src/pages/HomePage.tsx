@@ -36,10 +36,10 @@ export const HomePage = () => {
   return (
     <div className="relative">
       <div
-        className={`-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-screen`}
+        className="-mt-24 flex h-[56vh] w-full items-end bg-cover bg-top md:h-screen"
         style={{ backgroundImage: `url('${BgHome}')` }}
       >
-        <img src={CurveImg} alt="curve" className="-mb-5 h-sm:md:-mb-20 md:-mb-52" />
+        <img src={CurveImg} alt="curve" className="-mb-5 h-md:md:-mb-24 h-sm:2xl:-mb-52 md:-mb-52" />
       </div>
       <img
         src={LeafsIcon}

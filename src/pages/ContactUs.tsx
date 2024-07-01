@@ -42,7 +42,7 @@ export const ContactUs = () => {
         <img
           src={LeafIcon}
           alt="Leaf"
-          className="absolute left-96 top-[40rem] ml-20 mt-10 hidden w-32 -rotate-[9deg] sm:block"
+          className="absolute h-md:left-96 h-md:top-[40rem] left-128 top-[50rem] ml-20 mt-10 hidden w-32 -rotate-[9deg] sm:block"
         />
 
         <ContactUsForm />

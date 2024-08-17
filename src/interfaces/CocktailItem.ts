@@ -1,5 +1,5 @@
 export interface CocktailItem {
-  flavor: string,
+  flavor: Array<string>,
   img: string;
   name: string;
   method: string;

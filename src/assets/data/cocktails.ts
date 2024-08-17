@@ -22,62 +22,61 @@ import { degrees9Punch, doctorCentenario, planters } from '../imgs/cocktails/tik
 
 export const signatureDrinks: CocktailItem[] = [
   {
-    flavor: 'sweet',
+    flavor: ['sweet', 'spirit_forward'],
     img: expresso_centini,
     name: 'ESPRESSO CENTINI',
     method: 'shake_strain',
     glass: 'chill_glass',
-    ice:'none',
+    ice: 'none',
     garnish: '3_coffee_beans',
     levelDifficulty: 'medium',
     videoUrl: 'y4LHTByNzVM',
     ingredients: [
-      {quantity:'30ML', name: 'Ron Centenario 9 Grados'},
-      {quantity:'30ML', name: 'Centenario Café'},
+      { quantity: '30ML', name: 'Ron Centenario 9 Grados' },
+      { quantity: '30ML', name: 'Centenario Café' },
       { quantity: DropWater, name: 'cocktails.fresh_expresso', hasIcon: true, customClass: 'w-8' },
       { quantity: '10ML', name: 'cocktails.simple_syrup' },
-      
     ],
   },
   {
-    flavor: 'fruity',
+    flavor: ['fruity', 'citrus'],
     img: mai_tai,
     name: 'Centenario Mai Tai',
     method: 'shake_strain',
     glass: 'double_rocks',
-    ice:'crushed',
+    ice: 'crushed',
     garnish: 'mint_spring',
     levelDifficulty: 'medium',
     videoUrl: '1pdcsmxIHdk',
     ingredients: [
-      {quantity:'45ML', name: 'Ron Centenario 20'},
-      {quantity:'7.5ML', name: 'London Dry Gin'},
-      {quantity:'7.5ML', name: 'cocktails.orange_liquor'},
-      {quantity:'30ML', name: 'cocktails.orgeat_syrup'},
-      {quantity:'22.5ML', name: 'cocktails.lime_juice'},
-      {quantity: '3', name: 'cocktails.dash_cocoa_bitters'},
+      { quantity: '45ML', name: 'Ron Centenario 20' },
+      { quantity: '7.5ML', name: 'London Dry Gin' },
+      { quantity: '7.5ML', name: 'cocktails.orange_liquor' },
+      { quantity: '30ML', name: 'cocktails.orgeat_syrup' },
+      { quantity: '22.5ML', name: 'cocktails.lime_juice' },
+      { quantity: '3', name: 'cocktails.dash_cocoa_bitters' },
     ],
   },
   {
-    flavor: 'citrus',
+    flavor: ['citrus', 'refreshing'],
     img: old_pura_vida,
     name: 'Old Pura Vida',
     method: 'shake_strain',
     glass: 'chill_coupe',
-    ice:'none',
+    ice: 'none',
     garnish: 'mint_leave',
     levelDifficulty: 'medium',
     videoUrl: 'RkXDRltyXkQ',
     ingredients: [
-      {quantity:'60ML', name: 'Ron Centenario 12'},
-      {quantity:'10', name: 'cocktails.mint_leave'},
-      {quantity:'15ML', name: 'cocktails.simple_syrup'},
+      { quantity: '60ML', name: 'Ron Centenario 12' },
+      { quantity: '10', name: 'cocktails.mint_leave' },
+      { quantity: '15ML', name: 'cocktails.simple_syrup' },
       { quantity: '2', name: 'cocktails.dash_of_angostura_bitters' },
       { quantity: DropWater, customClass: 'w-8', hasIcon: true, name: 'cocktails.top_sparkling_wine' },
     ],
   },
   {
-    flavor: 'sweet',
+    flavor: ['sweet'],
     img: el_yodito,
     name: 'El Yodito',
     method: 'shake_strain',
@@ -93,7 +92,7 @@ export const signatureDrinks: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'refreshing',
+    flavor: ['refreshing', 'sweet'],
     img: cafe_tonic,
     name: 'Café & Tonic',
     method: 'build_stir',
@@ -109,7 +108,7 @@ export const signatureDrinks: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'fruity',
+    flavor: ['fruity', 'refreshing', 'citrus'],
     img: ron_pirina,
     name: 'Ron Piriña',
     method: 'muddle_shake_strain',
@@ -126,7 +125,7 @@ export const signatureDrinks: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'refreshing',
+    flavor: ['refreshing', 'sweet'],
     img: highball,
     name: 'Centenario highball',
     method: 'build',
@@ -142,7 +141,7 @@ export const signatureDrinks: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'refreshing',
+    flavor: ['refreshing', 'fruity'],
     img: frutos_rojos,
     name: 'Ron & tonic frutos rojos',
     method: 'muddle_build_stir',
@@ -161,7 +160,7 @@ export const signatureDrinks: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'spirit_forward',
+    flavor: ['spirit_forward', 'fruity'],
     img: no_more,
     name: 'No more prohibition',
     method: 'muddle_build_stir',
@@ -178,7 +177,7 @@ export const signatureDrinks: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'citrus',
+    flavor: ['citrus', 'refreshing'],
     img: d_knees,
     name: "daiquiri's knees",
     method: 'shake_fine_strain',
@@ -194,7 +193,7 @@ export const signatureDrinks: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'refreshing',
+    flavor: ['refreshing', 'fruity'],
     img: k_highball,
     name: 'kiwi highball',
     method: 'direct',
@@ -210,7 +209,7 @@ export const signatureDrinks: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'spirit_forward',
+    flavor: ['spirit_forward', 'sweet'],
     img: smoked,
     name: 'smoked rum fashioned',
     method: 'build_smoked',
@@ -227,7 +226,7 @@ export const signatureDrinks: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'spirit_forward',
+    flavor: ['spirit_forward'],
     img: velvety,
     name: 'Velvety liquid',
     method: 'gently_stir',
@@ -244,7 +243,7 @@ export const signatureDrinks: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'refreshing',
+    flavor: ['refreshing', 'citrus'],
     img: dark_stormy,
     name: 'New dark & stormy',
     method: 'shaker_and_strain_build_stair',
@@ -261,7 +260,7 @@ export const signatureDrinks: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'spirit_forward',
+    flavor: ['spirit_forward'],
     img: el_conocedor,
     name: 'El conocedor',
     method: 'build_stir',
@@ -284,7 +283,7 @@ export const forTheIndustry: CocktailItem[] = [];
 
 export const agedByNature: CocktailItem[] = [
   {
-    flavor: 'sweet',
+    flavor: ['sweet', 'fruity', 'refreshing'],
     img: dMora,
     name: "d'mora",
     method: 'build_and_stir',
@@ -300,9 +299,9 @@ export const agedByNature: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'refreshing',
+    flavor: ['citrus', 'refreshing'],
     img: passionTonic,
-    name: 'passion tonic',
+    name: 'passion tonic', // Maracuya Tonic
     method: 'build_and_stir',
     glass: 'rocks_glass',
     ice: '',
@@ -316,7 +315,7 @@ export const agedByNature: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'citrus',
+    flavor: ['citrus', 'refreshing'],
     img: citrusTonic,
     name: 'citrus tonic',
     method: 'build_and_stir',
@@ -333,9 +332,9 @@ export const agedByNature: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'refreshing',
+    flavor: ['sweet', 'fruity', 'refreshing'],
     img: forrestFruitTonic,
-    name: 'forest fruits tonic',
+    name: 'forest fruits tonic', // Fresa Tonic
     method: 'muddle_build_stir',
     glass: 'rocks_glass',
     ice: '',
@@ -353,7 +352,7 @@ export const agedByNature: CocktailItem[] = [
 
 export const tikiCocktails: CocktailItem[] = [
   {
-    flavor: 'refreshing',
+    flavor: ['refreshing', 'fruity', 'sweet'],
     img: planters,
     name: "Centenario planter's punch",
     method: 'swizzle_stick',
@@ -373,7 +372,7 @@ export const tikiCocktails: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'spirit_forward',
+    flavor: ['spirit_forward', 'fruity', 'sweet'],
     img: doctorCentenario,
     name: 'Doctor centenario',
     method: 'swizzle_stick',
@@ -392,7 +391,7 @@ export const tikiCocktails: CocktailItem[] = [
     ],
   },
   {
-    flavor: 'fruity',
+    flavor: ['fruity', 'sweet'],
     img: degrees9Punch,
     name: '9 degrees punch',
     method: 'swizzle',

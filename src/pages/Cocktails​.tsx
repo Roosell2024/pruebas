@@ -21,7 +21,7 @@ export const Cocktails = () => {
     'Ron Centenario 25',
     'Ron Centenario 30',
   ];
-  const flavors = _.map(_.sortBy(_.uniqBy(array, 'flavor'), 'flavor'), 'flavor');
+  const flavors = _.sortBy(_.uniq(_.flatMap(array, 'flavor')), 'flavor');
   const [flavorSelected, setFlavorSelected] = useState('');
   const [productSelected, setProductSelected] = useState('');
   const { t } = useTranslation();
@@ -35,12 +35,12 @@ export const Cocktails = () => {
     return options.filter((o) => {
       if (flavorSelected && productSelected) {
         return (
-          o.flavor.toUpperCase() === flavorSelected.toUpperCase() &&
+          o.flavor.includes(flavorSelected) &&
           o.ingredients.filter((i) => i.name.toUpperCase() === productSelected.toUpperCase()).length !== 0
         );
       }
       if (flavorSelected) {
-        return o.flavor.toUpperCase() === flavorSelected.toUpperCase();
+        return o.flavor.includes(flavorSelected);
       }
       if (productSelected) {
         return o.ingredients.filter((i) => i.name.toUpperCase() === productSelected.toUpperCase()).length !== 0;

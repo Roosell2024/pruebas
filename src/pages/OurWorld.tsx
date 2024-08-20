@@ -6,6 +6,7 @@ import { News } from '../components/ourWorld/News';
 import { WorldOfMedals } from '../components/ourWorld/WorldOfMedals';
 import { CurveImg } from '../assets/imgs/shared';
 import { BGOWorld } from '../assets/imgs/ourWorld';
+import { orange } from '../assets/imgs/sostenibilidad';
 
 export const OurWorld = () => {
   const { t } = useTranslation();
@@ -29,6 +30,51 @@ export const OurWorld = () => {
 
         {/* Medals */}
         <WorldOfMedals />
+
+        <section className="relative my-32 px-10 xl:px-52">
+          <img
+            src={orange}
+            alt="orange"
+            className="absolute md:-left-24 top-128 md:h-72 md:w-72 w-32 rotate-1 md:top-64 -z-10"
+          />
+
+          <div className="flex flex-col justify-between gap-10 md:flex-row lg:gap-52">
+            <div>
+              <h2 className="text-5xl font-extrabold uppercase text-green-300">{t('our_world.mision')}</h2>
+              <p className="text-justify font-normal text-green-300 md:text-lg">{t('our_world.mision_text')}</p>
+            </div>
+            <div>
+              <h2 className="text-5xl font-extrabold uppercase text-green-300">{t('our_world.vision')}</h2>
+              <p className="text-justify font-normal text-green-300 md:text-lg">{t('our_world.vision_text')}</p>
+            </div>
+          </div>
+
+          <div className='text-center my-20'>
+            <h2 className="text-5xl font-extrabold uppercase text-green-300">{t('our_world.values')}</h2>
+
+            <ul>
+              <li className="font-normal text-green-300 md:text-lg">{t('our_world.respect')}</li>
+              <li className="font-normal text-green-300 md:text-lg">{t('our_world.integrity')}</li>
+              <li className="font-normal text-green-300 md:text-lg">{t('our_world.attitude_service')}</li>
+              <li className="font-normal text-green-300 md:text-lg">{t('our_world.celebration')}</li>
+              <li className="font-normal text-green-300 md:text-lg">{t('our_world.innovation')}</li>
+              <li className="font-normal text-green-300 md:text-lg">{t('our_world.empathy')}</li>
+            </ul>
+          </div>
+
+          <div className='mb-20 mt-36'>
+            <h2 className="text-4xl font-extrabold uppercase text-green-300">{t('our_world.sustainability_policy')}</h2>
+            <p className="text-justify font-normal text-green-300 md:text-lg">
+              {t('our_world.sustainability_policy_text')}
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-4xl font-extrabold uppercase text-green-300">{t('our_world.quality_policy')}</h2>
+            <p className="text-justify font-normal text-green-300 md:text-lg">{t('our_world.quality_policy_text')}</p>
+          </div>
+        </section>
+
         <MapaMundi />
         <Events />
         <News />

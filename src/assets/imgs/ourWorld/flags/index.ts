@@ -11,6 +11,7 @@ import PeruFlag from './pe.svg';
 import ElSalvadorFlag from './sv.svg';
 import PanamaFlag from './pa.svg';
 import JapanFlag from './jp.svg';
+import ItalyFlag from './ita.svg';
 
 export {
   UsaFlag,
@@ -26,4 +27,5 @@ export {
   ElSalvadorFlag,
   PanamaFlag,
   JapanFlag,
+  ItalyFlag,
 };

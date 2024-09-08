@@ -230,7 +230,11 @@
         "message": "Votre question ou commentaire",
         "send": "Envoyer",
         "clean": "Supprimer",
-        "phone_number": "Centrale téléphonique"
+        "phone_number": "Centrale téléphonique",
+        "file": "Fichier",
+        "select_file": "Sélectionner le fichier",
+        "file_size_error": "La taille du fichier ne doit pas dépasser 5 Mo",
+        "file_type_error": "Le type de fichier n'est pas autorisé"
     },
     "our_world": {
         "world_medals": "Monde des médailles",
@@ -240,9 +244,9 @@
         "read_more": "En savoir plus",
         "read_less": "Lire Moins",
         "mision": "Misión",
-        "mision_text": "Ser la empresa más importante de producción y distribución en la categoría de licores en Costa rica, impulsado por el crecimiento constante del mercado local y comercio exterior a través de la construcción e innovación de marcas, generando valor para nuestros socios comerciales, colaboradores y accionistas.",
+        "mision_text": "Somos una empresa auténtica y orgullosamente costarricense, presente en cada uno de los momentos de disfrute de nuestros consumidores a través de la variedad de nuestro portafolio. Inspirando el cambio positivo mediante la innovación de manera sostenible e inclusiva.",
         "vision": "Visión",
-        "vision_text": "Somos una empresa auténtica y orgullosamente costarricense, presente en cada uno de los momentos de disfrute de nuestros consumidores a través de la variedad de nuestro portafolio. Inspirando el cambio positivo mediante la innovación de manera sostenible e inclusiva.",
+        "vision_text": "Ser la empresa más importante de producción y distribución en la categoría de licores en Costa rica, impulsado por el crecimiento constante del mercado local y comercio exterior a través de la construcción e innovación de marcas, generando valor para nuestros socios comerciales, colaboradores y accionistas.",
         "values": "Valores",
         "respect": "Respeto",
         "integrity": "Integridad",

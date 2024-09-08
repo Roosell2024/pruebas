@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { useTransition } from 'transition-hook';
 import { sendEmail } from '../../services/email.service';
 import { Loading } from '../shared/layout/Loading';
@@ -12,13 +12,26 @@ const alertBgColor: { [key: string]: string } = {
   success: 'bg-success-700',
 };
 
+const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
+const ALLOWED_FILE_TYPES = [
+  'application/pdf',
+  'application/msword',
+  'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+  'application/vnd.ms-excel',
+  'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+  'image/png',
+  'image/jpeg',
+];
+
 export const ContactUsForm = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [alert, setAlert] = useState({ show: false, message: '', type: 'error' });
+  const [file, setFile] = useState<File | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const { stage, shouldMount } = useTransition(alert.show, 100);
   const { t } = useTranslation();
   const isSmallDevice = useMediaQuery(mobileBreakpoint);
+  const fileInput = useRef<HTMLInputElement>(null);
 
   const handleChangeInput = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
@@ -29,6 +42,28 @@ export const ContactUsForm = () => {
     setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
   };
 
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (file) {
+      if (file.size > MAX_FILE_SIZE) {
+        setAlert({ show: true, message: t('contact_us.file_size_error'), type: 'error' });
+        event.target.value = '';
+        setFile(null);
+      } else if (!ALLOWED_FILE_TYPES.includes(file.type)) {
+        setAlert({
+          show: true,
+          message: t('contact_us.file_type_error'),
+          type: 'error',
+        });
+        event.target.value = '';
+        setFile(null);
+      } else {
+        setFile(file);
+        setAlert({ show: false, message: '', type: 'error' });
+      }
+    }
+  };
+
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     try {
@@ -36,11 +71,13 @@ export const ContactUsForm = () => {
       const data = {
         subject: `Nuevo Mensaje de ${formData.name}`,
         html: EmailTemplate(formData),
+        file: file instanceof File ? file : undefined,
       };
       const response = await sendEmail(data);
       if (response) {
         setAlert({ show: true, message: t('email_sent'), type: 'success' });
         setFormData({ name: '', email: '', message: '' });
+        setFile(null);
       } else {
         setAlert({ show: true, message: t('email_not_sent'), type: 'error' });
       }
@@ -101,11 +138,40 @@ export const ContactUsForm = () => {
             onChange={handleChangeTextArea}
           />
         </div>
+
+        <div className="mb-4">
+          <label className="mb-2 block font-bold uppercase text-green-300" htmlFor="file-upload">
+            {t('contact_us.file')}
+          </label>
+          <input
+            className="hidden"
+            id="file-upload"
+            type="file"
+            ref={fileInput}
+            onChange={handleFileChange}
+            accept=".pdf,.doc,.docx,.xls,.xlsx,.png,.jpg,.jpeg"
+          />
+
+          <button
+            type="button"
+            className="focus:shadow-outline rounded border border-green-300 bg-white-50 px-4 py-2 font-bold uppercase text-green-300 hover:bg-green-300 hover:text-white-50 focus:outline-none"
+            onClick={() => fileInput.current?.click()}
+          >
+            {t('contact_us.select_file')}
+          </button>
+
+          {file && <span className="block w-64 truncate text-green-300">{file.name}</span>}
+        </div>
+
         <div className="flex items-center justify-center gap-10 sm:justify-end">
           <button
             className="focus:shadow-outline w-36 rounded border border-green-300 bg-white-50 px-4 py-2 font-bold uppercase text-green-300 hover:bg-green-300 hover:text-white-50 focus:outline-none"
             type="button"
-            onClick={() => setFormData({ name: '', email: '', message: '' })}
+            onClick={() => {
+              setFormData({ name: '', email: '', message: '' });
+              setFile(null);
+              setAlert({ show: false, message: '', type: 'error' });
+            }}
           >
             {t('contact_us.clean')}
           </button>

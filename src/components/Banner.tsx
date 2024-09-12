@@ -40,7 +40,7 @@ export const Banner = () => {
           </svg>
         </button>
 
-        <img src={isSmallDevice ? BannerMobile : BannerDesktop} alt="banner" />
+        <img src={isSmallDevice ? BannerMobile : BannerDesktop} alt="banner" className='h-md:h-auto  md:h-sm:h-[580px] md:h-xs:h-[480px]' />
       </div>
     </div>
   );
